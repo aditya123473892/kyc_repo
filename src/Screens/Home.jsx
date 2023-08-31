@@ -1,6 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Button } from "react-bootstrap";
 import "./Home.css";
+import Footer from '../Components/Footer'
 
 const Home = () => {
   return (
@@ -101,7 +102,9 @@ const Home = () => {
         </div>
       </main>
       <a className="divhero-abs-img-right-desktop" />
+      
     </div>
+   
   );
 };
 
