@@ -13,23 +13,25 @@ export default function Navbar() {
   return (
     <div><div className="nav">
 
-        <div className="logo"> YOUR LOGO</div>
+        <div className="logo"> </div>
         <div>
             <ul className={menuOpen ?"open":""}>
                 <li>Home</li>
-                <li>College  Predictor </li>
-                <li> CCP </li>
-                <li>College Search</li>
-                <li>Contact</li>
-                <li>About</li>
+                <li>Personal Mentor </li>
+                <li>College Predictor</li>
+                <li>Compare Colleges</li>
+                <li>Ask Doubts</li>
+                <li>About us</li>
+                <button className='button'>College Search</button>
             </ul>
             
             
         </div>
-        
+       
         <button className="menubutton" onClick={Cross}>
           menu
         </button>
+        
         
         </div></div>
   )
