@@ -1,8 +1,18 @@
 import React from 'react'
+import {Routes,Route,useNavigationType,useLocation,} from "react-router-dom";
 import Navbar from './Components/Navbar'
+import Home from './Screens/Home';
 
-export default function App() {
+function App() {
   return (
-    <div><Navbar></Navbar></div>
+    <div>
+      <Navbar></Navbar>
+      <Routes>
+      <Route path="/" element={<Home />} />
+    </Routes>
+      </div>
+    
   )
 }
+export default App;
+

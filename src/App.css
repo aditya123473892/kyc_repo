@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+@media (max-width:${({ theme }) => theme.media,tab})
+{
+  .landing-page {
+    padding : 0 3.2px;
+    height:100%;
+  
+  }
+}
+
+
