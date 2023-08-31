@@ -1,5 +1,7 @@
 import React from 'react'
 import css from './footer.css'
+import { FontAwesomeIcon  } from '@fortawesome/react-fontawesome';
+import { faLinkedin, faWhatsapp, faTwitter, faEnvelope} from '@fortawesome/free-solid-svg-icons';
 
 export default function footer() {
   return (
@@ -7,7 +9,7 @@ export default function footer() {
       <footer className="footer">
   <div className="container flex spaced-between">
     <div className="image flex">
-      <img src="kyc.png" alt />
+      <img src="KCY__4_-removebg-preview 1.png" />
     </div>
     <div className="middle flex col">
       <div className="navbar flex">
@@ -29,13 +31,14 @@ export default function footer() {
       </div>
     </div>
     <div className="links flex col left-align">
-      <h1>GET OUR</h1>
-      <h1>ASSISTANCES</h1>
+      <p>GET OUR</p>
+      <p>ASSISTANCES</p>
       <ul className="social-icons flex">
-        <li><a href="#"><i className="fa-brands fa-linkedin" /></a></li>
-        <li><a href="#"><i className="fa-brands fa-whatsapp" /></a></li>
-        <li><a href="#"><i className="fa-brands fa-twitter" /></a></li>
-        <li><a href="#"><i className="fa fa-envelope" /></a></li>
+      <FontAwesomeIcon icon={faCoffee} />
+        <li><a href="#"><FontAwesomeIcon icon={faLinkedin} /></a></li>
+        <li><a href="#"><FontAwesomeIcon icon={faWhatsapp} /></a></li>
+        <li><a href="#"><FontAwesomeIcon icon={faTwitter} /></a></li>
+        <li><a href="#"><FontAwesomeIcon icon={faEnvelope} /></a></li>
       </ul>
     </div>
   </div>
@@ -44,7 +47,6 @@ export default function footer() {
     <p>Privacy Policy</p>
   </div>
 </footer>
-
     </div>
   )
 }
