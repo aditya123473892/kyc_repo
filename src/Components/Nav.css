@@ -7,6 +7,7 @@
     padding: 15px;
     color: rgb(0, 237, 100);
     cursor: pointer;
+   
   
 }
 .logo{
@@ -19,6 +20,7 @@
     
     display: flex;
     list-style: none;
+   
 }
 .btn{
     position: absolute;
@@ -36,6 +38,7 @@
 .nav li{
     padding-left: 1rem;
     padding-right: 1rem;
+    font-size: medium;
 }
 .nav li:hover{
  
@@ -97,7 +100,7 @@
 }
 .logo{
     
-    /* background-image: url("C:\Users\ADITYA\Desktop\kyc\kyc\src\KCY__4_-removebg-preview 1.png"); */
+     background-image: url("C:\Users\ADITYA\Desktop\kyc\kyc\src\KCY__4_-removebg-preview 1.png"); 
     height: 60px;
     background-size: cover;
     background-repeat: no-repeat;
