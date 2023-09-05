@@ -2,6 +2,7 @@ import React from 'react'
 import css from '../Components/footer.css'
 // import { FontAwesomeIcon  } from '@fortawesome/react-fontawesome';
 // import { faLinkedin, faWhatsapp, faTwitter, faEnvelope} from '@fortawesome/free-solid-svg-icons';
+import image from '../Components/KCY__4_-removebg-preview 1.png'
 
 export default function footer() {
   return (
@@ -9,7 +10,7 @@ export default function footer() {
       <footer className="footer">
   <div className="container flex spaced-between">
     <div className="image flex">
-      <img src="../kyc.png" />
+      <img src={image} />
     </div>
     <div className="middle flex col">
       <div className="navbar flex">
