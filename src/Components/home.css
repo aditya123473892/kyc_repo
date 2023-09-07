@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container_1{
+    background:url(image_kyc.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100vw;
+    font-family:sans-serif;
+    margin-bottom: 1vw;
+}
+.flex_1{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.col_1{
+    flex-direction: column;
+}
+.left_align_1{
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.spaced-between{
+    justify-content: space-between;
+}
+.section_1{
+    gap:5vw;
+    margin-top: 3vw;
+}
+.content_1{
+    gap: 3vw;
+}
+.heading_1{
+    gap:-1vw;
+}
+.h_1{
+    font-size: 5vw;
+    font-weight: 800;
+}
+.span_1{
+    color: #00EC65;
+}
+.getstarted{
+    width: 16vw;
+    height: 4vw;
+    background-color: #00EC65;
+    font-size: 2vw;
+    cursor: progress;
+    font-weight: 600;
+    border-radius: 0.5vw;
+}
+.getstarted:hover{
+    background-color: blue;
+}
+.info_1{
+    font-weight: 400;
+    color: gray;
+    width: 40vw;
+    text-align: left;
+    letter-spacing: 0.1vw;
+    font-size: 1.5vw;
+}
+.image_1{
+    width: 40vw;
+    height: auto;
+}
+.image_1 img{
+    width: 40vw;
+    height: 30vw;
+}
+h2{
+    font-size: 3vw;
+    margin-left: 9vw;
+    font-weight: 800;
+}
+.section_2{
+    gap: 1vw;
+    margin: 6vw 5vw;
+}
+.review{
+    background-color: rgb(222, 221, 221);
+    width: 20vw;
+    height: 15vw;
+    border-radius: 50%;
+    margin: 1vw;
+}
+.section_3{
+    background-color: black;
+    align-items: flex-end;
+    border-radius: 5vw;
+    padding: 2vw;
+    margin-left: 20vw;
+}
+.queries{
+    color: white;
+    gap: 1vw;
+}
+.needCounselling{
+    width: 19vw;
+    min-height: 3vw;
+    height: auto;
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+.needCounselling:hover{
+    font-weight: 600;
+    background-color: rgb(176, 175, 175);
+}
+.section_3 h1{
+    font-size: 5vw;
+    font-weight: 600;
+}
+.img_2 img{
+    width: 30vw;
+}
+.hr_1{
+    width: 40vw;
+    margin-left: 5vw;
+    background-color:#E7EEEC;
+    height: 0.2vw;
+    border: none;
+}
