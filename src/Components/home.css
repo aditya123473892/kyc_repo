@@ -4,12 +4,13 @@
     box-sizing: border-box;
 }
 .container_1{
-    background:url(image_kyc.jpg);
+    background:url(c:\Users\ADITYA\Downloads\div.poc-hero-section-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     width:100vw;
     font-family:sans-serif;
     margin-bottom: 1vw;
+    background-color: black;
 }
 .flex_1{
     display:flex;

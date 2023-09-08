@@ -2,7 +2,7 @@ import React from 'react'
 import css from '../Components/footer.css'
 // import { FontAwesomeIcon  } from '@fortawesome/react-fontawesome';
 // import { faLinkedin, faWhatsapp, faTwitter, faEnvelope} from '@fortawesome/free-solid-svg-icons';
-import image from '../Components/KCY__4_-removebg-preview 1.png'
+import image from '../Components/kyc.png'
 
 export default function footer() {
   return (
