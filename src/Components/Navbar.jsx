@@ -28,9 +28,11 @@ export default function Navbar() {
             
         </div>
        
-        <button className="menubutton" onClick={Cross}>
-          menu
-        </button>
+        <div className="menu-icon"  onClick={cross}>
+          <div className="bar" />
+          <div className="bar" />
+          <div className="bar" />
+      </div>
         
         
         </div></div>
