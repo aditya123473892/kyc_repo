@@ -6,7 +6,7 @@ export default function Navbar() {
 
 
   const[menuOpen,setMenuOpen]=useState(false)
-  const Cross=()=>{
+  const cross=()=>{
    setMenuOpen(!menuOpen)
 
   }
@@ -14,7 +14,7 @@ export default function Navbar() {
     <div><div className="nav">
 
         <div className="logo"> </div>
-        <div>
+        <div className="menu">
             <ul className={menuOpen ?"open":""}>
                 <li>Home</li>
                 <li>Personal Mentor </li>

@@ -7,8 +7,6 @@
     padding: 15px;
     color: rgb(0, 237, 100);
     cursor: pointer;
-   
-  
 }
 .logo{
  margin-left: 1%;
@@ -129,5 +127,8 @@
         flex-direction: row;
         justify-content: space-between;
     }
-
+    .logo{
+        height: 6vw;
+        width: 6vw;
+    }
 }
