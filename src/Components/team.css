@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.flex_3{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.col_3{
+    flex-direction: column;
+}
+.kyc_team{
+    background-color: #031922;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    gap: 7vw;
+    position: relative;
+}
+.kyc_team .h_2{
+    gap: 1.5vw;
+    margin-top: 2.5vw;
+    align-items: center;
+    justify-content: center;
+}
+.kyc_team .h_2 h1{
+    font-weight: 1000;
+    color: white;
+}
+.span_2{
+    color: #01ED65;
+}
+.box_2{
+    width: 70vw;
+    height: 23vw;
+    border: 0.2vw solid white;
+    border-radius: 4vw;
+    align-items: center;
+    justify-content: center;
+}
+.info_2{
+    align-items: flex-start;
+    justify-content: flex-end;
+    gap: 0.4vw;
+    width: 40vw;
+    /* height: 19vw; */
+    color: white;
+    padding-left: 8vw;
+}
+.info_2 h2{
+    font-size: 3vw;
+    margin: 0;
+}
+.info_2 h3{
+    font-size: 2vw;
+}
+.info_2 p{
+    font-size: 1.5vw;
+}
+.kyc_team .h_2 .h_1{
+    font-weight: 100;
+    color: white;
+    font-size: 3vw;
+}
+
+.image_3{
+    position: absolute;
+    left: 9.2vw;
+    top: 15.5vw;
+}
+.image_4{
+    position: absolute;
+    left: 9.2vw;
+    top: 45.5vw;
+    
+}
+.image_5{
+    position: absolute;
+    left: 9.2vw;
+    top: 75.5vw;
+}
+.image_6{
+    position: absolute;
+    left: 9.2vw;
+    top: 105.5vw;
+}
+img{
+    border-radius: 50%;
+
+}
+@media(max-width:530px){
+    .info_2{
+        width: auto;
+        height: auto;
+    }
+    img{
+        display: none;
+    }
+}
+@media(max-width:400px){
+    .kyc_team{
+        gap: 5vw;
+    }
+    .box_2{
+        height: 30vw;
+        width: 80vw;
+    }
+    .kyc_team .h_2 h1{
+        font-size: 4vw;
+    }
+}

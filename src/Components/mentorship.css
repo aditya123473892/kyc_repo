@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex_4{
+    display: flex;
+}
+.col_4{
+    flex-direction: column;
+}
+.mentorship{
+    gap:3.5vw;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom,#E2F9ED,#DAF5E7,#7ADAA5);
+    padding: 2.5vw 0vw;
+}
+.frame{
+    gap:3vw;
+    width: 70vw;
+}
+.frame p{
+    color:grey;
+    font-size: 1.5vw;
+}
+.frame img{
+    width: 3vw;
+    height: 3vw;
+}
+.mentorship h1{
+    font-weight: 700;
+    justify-self:flex-start;
+    font-size: 3vw;
+}
+.span_4{
+    color: #00E364;
+}
+.mentorship ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+.mentorship ul li{
+    color: rgb(87, 87, 87);
+    list-style-type: disc;
+    font-size: 1.5vw;
+}
+.enroll_now button{
+    background-color: #00E364;
+    color: #3E3356;
+    font-size: 1.5vw;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    padding: 0.5vw 1vw;
+    border-radius: 4vw;
+}
+.benefits{
+    gap: 3.5vw;
+    align-self: flex-start;
+    padding-left: 7vw;
+}
