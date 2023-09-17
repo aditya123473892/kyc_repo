@@ -4,6 +4,7 @@ import {Routes,Route,useNavigationType,useLocation,} from "react-router-dom";
 import Home from './Components/Home';
 import Footer from './Components/Footer'
 import Team from './Components/Team'
+import { Lab } from './Screens/About';
 import Updates from './Components/home-components/Updates'
 import Navbar from './Components/Navbar'
 import Mentorship from './Components/Mentorship'
@@ -12,6 +13,7 @@ function App() {
     <div>
        <Navbar></Navbar> 
       <Home></Home>
+      <Lab></Lab>
       <Updates></Updates>
       <Team></Team> 
       <Footer></Footer>
