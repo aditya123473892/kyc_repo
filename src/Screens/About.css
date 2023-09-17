@@ -1,0 +1,542 @@
+.frame {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.frame .div {
+  height: 232px;
+  position: relative;
+  width: 2916px;
+}
+
+.frame .rectangle {
+  background-image: url(../Screens/BITS.png);
+  height: 171px;
+  left: 734px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 347px;
+}
+
+.frame .img {
+  background-image: url(../Screens/MIT.png);
+  height: 171px;
+  left: 367px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 347px;
+}
+
+.frame .rectangle-2 {
+  background-image: url(../Screens/LNMIIT.png);
+  height: 171px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 347px;
+}
+
+.frame .rectangle-3 {
+  background-image: url(../Screens/BMSCE.png);
+  height: 171px;
+  left: 1101px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 347px;
+}
+
+.frame .rectangle-4 {
+  background-image: url(../Screens/DAIICT.png);
+  height: 171px;
+  left: 1468px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 347px;
+}
+
+.frame .rectangle-5 {
+  background-image: url(../Screens/THAPAR.png);
+  height: 171px;
+  left: 1835px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 347px;
+}
+
+.frame .rectangle-6 {
+  background-image: url(../Screens/MS.png);
+  height: 171px;
+  left: 2202px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 347px;
+}
+
+.frame .rectangle-7 {
+  background-image: url(../Screens/RV.png);
+  height: 171px;
+  left: 2569px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 347px;
+}
+
+.frame .text-wrapper {
+  color: #061621;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 40px;
+  font-weight: 700;
+  height: 50px;
+  left: 68px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 181px;
+  width: 212px;
+}
+
+.frame .text-wrapper-2 {
+  color: #001e2b;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 40px;
+  font-weight: 700;
+  height: 50px;
+  left: 435px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 181px;
+  width: 212px;
+}
+
+.frame .text-wrapper-3 {
+  color: #001e2b;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 40px;
+  font-weight: 700;
+  height: 50px;
+  left: 802px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 181px;
+  width: 212px;
+}
+
+.frame .text-wrapper-4 {
+  color: #001e2b;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 40px;
+  font-weight: 700;
+  height: 50px;
+  left: 1169px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 181px;
+  width: 212px;
+}
+
+.frame .text-wrapper-5 {
+  color: #001e2b;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 40px;
+  font-weight: 700;
+  height: 50px;
+  left: 1536px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 181px;
+  width: 212px;
+}
+
+.frame .text-wrapper-6 {
+  color: #001e2b;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 40px;
+  font-weight: 700;
+  height: 50px;
+  left: 1903px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 181px;
+  width: 212px;
+}
+
+.frame .text-wrapper-7 {
+  color: #001e2b;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 40px;
+  font-weight: 700;
+  height: 50px;
+  left: 2221px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 181px;
+  width: 310px;
+}
+
+.frame .text-wrapper-8 {
+  color: #001e2b;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 40px;
+  font-weight: 700;
+  height: 50px;
+  left: 2603px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 181px;
+  width: 279px;
+}
+
+
+
+.frame {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  overflow: hidden; /* Hide overflowing content */
+  white-space: nowrap; /* Prevent text from wrapping */
+}
+
+.div {
+  display: inline-block;
+  animation: slideRightToLeft 20s linear infinite; /* Adjust duration as needed */
+}
+
+/* Define the keyframes for the slide animation */
+@keyframes slideRightToLeft {
+  0% {
+    transform: translateX(100%); /* Start position: -100% to the left */
+  }
+  100% {
+    transform: translateX(-100%); /* End position: 100% to the right */
+  }
+}
+
+/* Add styling for individual elements */
+.rectangle,
+.img,
+.text-wrapper,
+.text-wrapper-2,
+.text-wrapper-3,
+.text-wrapper-4,
+.text-wrapper-5,
+.text-wrapper-6,
+.text-wrapper-7,
+.text-wrapper-8 {
+  width: 291px; /* Adjust width as needed */
+  height: 171px; /* Adjust height as needed */
+  margin: 0 10px; /* Add spacing between elements */
+  background-color: #ccc; /* Example background color */
+  display: inline-block; /* Ensure elements appear in a row */
+  color: #001e2b;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.frame1 {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.frame1 .div1 {
+  height: 232px;
+  position: relative;
+  width: 2916px;
+}
+
+.frame1 .rectangle1 {
+  background-image: url(../Screens/SNU.png);
+  height: 171px;
+  left: 734px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 347px;
+}
+
+.frame1 .img1 {
+  background-image: url(../Screens/JIIT.png);
+  height: 171px;
+  left: 367px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 347px;
+}
+
+.frame1 .rectangle-21 {
+  background-image: url(../Screens/HBTU.png);
+  height: 171px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 347px;
+}
+
+.frame1 .rectangle-31 {
+  background-image: url(../Screens/JSS.png);
+  height: 171px;
+  left: 1101px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 347px;
+}
+
+.frame1 .rectangle-41 {
+  background-image: url(../Screens/IET.png);
+  height: 171px;
+  left: 1468px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 347px;
+}
+
+.frame1 .rectangle-51 {
+  background-image: url(../Screens/BIET.png);
+  height: 171px;
+  left: 1835px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 347px;
+}
+
+.frame1 .rectangle-61 {
+  background-image: url(../Screens/KNIT.png);
+  height: 171px;
+  left: 2202px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 347px;
+}
+
+.frame1 .rectangle-71 {
+  background-image: url(../Screens/AMITY.png);
+  height: 171px;
+  left: 2569px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 347px;
+}
+
+.frame1 .text-wrapper1 {
+  color: #061621;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 40px;
+  font-weight: 700;
+  height: 50px;
+  left: 68px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 181px;
+  width: 212px;
+}
+
+.frame1 .text-wrapper-21 {
+  color: #001e2b;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 40px;
+  font-weight: 700;
+  height: 50px;
+  left: 435px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 181px;
+  width: 212px;
+}
+
+.frame1 .text-wrapper-31 {
+  color: #001e2b;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 40px;
+  font-weight: 700;
+  height: 50px;
+  left: 802px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 181px;
+  width: 212px;
+}
+
+.frame1 .text-wrapper-41 {
+  color: #001e2b;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 40px;
+  font-weight: 700;
+  height: 50px;
+  left: 1169px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 181px;
+  width: 212px;
+}
+
+.frame1 .text-wrapper-51 {
+  color: #001e2b;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 40px;
+  font-weight: 700;
+  height: 50px;
+  left: 1536px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 181px;
+  width: 212px;
+}
+
+.frame1 .text-wrapper-61 {
+  color: #001e2b;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 40px;
+  font-weight: 700;
+  height: 50px;
+  left: 1903px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 181px;
+  width: 212px;
+}
+
+.frame1 .text-wrapper-71 {
+  color: #001e2b;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 40px;
+  font-weight: 700;
+  height: 50px;
+  left: 2221px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 181px;
+  width: 310px;
+}
+
+.frame1 .text-wrapper-81 {
+  color: #001e2b;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 40px;
+  font-weight: 700;
+  height: 50px;
+  left: 2603px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 181px;
+  width: 279px;
+}
+
+.frame1 {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  overflow: hidden; /* Hide overflowing content */
+  white-space: nowrap; /* Prevent text from wrapping */
+}
+
+.div1 {
+  display: inline-block;
+  animation: slideLeftToRight 20s linear infinite; /* Adjust duration as needed */
+}
+
+/* Define the keyframes for the slide animation */
+@keyframes slideLeftToRight {
+  0% {
+    transform: translateX(-100%); /* Start position: -100% to the left */
+  }
+  100% {
+    transform: translateX(100%); /* End position: 100% to the right */
+  }
+}
+
+/* Add styling for individual elements */
+.rectangle1,
+.img1,
+.text-wrapper1,
+.text-wrapper-21,
+.text-wrapper-31,
+.text-wrapper-41,
+.text-wrapper-51,
+.text-wrapper-61,
+.text-wrapper-71,
+.text-wrapper-81 {
+  width: 291px; /* Adjust width as needed */
+  height: 171px; /* Adjust height as needed */
+  margin: 0 10px; /* Add spacing between elements */
+  background-color: #ccc; /* Example background color */
+  display: inline-block; /* Ensure elements appear in a row */
+  color: #001e2b;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+}
