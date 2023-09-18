@@ -7,6 +7,7 @@ import Team from './Components/Team'
 import { Mem } from './Screens/members';
 import { Lab } from './Screens/About';
 import Updates from './Components/home-components/Updates'
+import { Desktop } from './Screens/aktuform';
 import Navbar from './Components/Navbar'
 import Mentorship from './Components/Mentorship'
 function App() {
@@ -17,7 +18,8 @@ function App() {
       <Mem></Mem>
       <Lab></Lab>
       <Updates></Updates>
-      <Team></Team> 
+      <Team></Team>
+      <Desktop></Desktop>
       <Footer></Footer>
       <Mentorship></Mentorship>
     </div>
