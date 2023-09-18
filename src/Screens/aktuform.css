@@ -1,0 +1,428 @@
+/* Base styling for the desktop container */
+.desktop {
+  background-color: #d9d9d9;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+/* Styling for the overlap wrapper */
+.desktop .overlap-wrapper {
+  background-color: #d9d9d9;
+  height: 1466px;
+  overflow: hidden;
+  width: 1519px;
+}
+
+/* Styling for the overlap section */
+.desktop .overlap {
+  height: 1466px;
+  position: relative;
+}
+
+/* Styling for the main frame */
+.desktop .frame2 {
+  height: 1466px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1519px;
+  background-image: url('./bg.png');
+  background-size: cover; /* Adjust background size to cover the container */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat;
+}
+
+/* Styling for the overlap group containing input elements */
+.desktop .overlap-group {
+  height: 738px;
+  left: 96px;
+  position: absolute;
+  top: 238px;
+  width: 1327px;
+}
+
+/* Styling for the background rectangle */
+.desktop .rectangle {
+  background-color: #e8eceb;
+  border-radius: 49.09px;
+  box-shadow: 0px 4px 4px #00000040;
+  height: 732px;
+  left: 2px;
+  position: absolute;
+  top: 3px;
+  transform: rotate(-0.28deg);
+  width: 1323px;
+} 
+
+/* Styling for the "JEE RANK" text */
+.desktop .jee-rank {
+  color: #000000;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-size: 24px;
+  font-weight: 600;
+  left: 112px;
+  letter-spacing: 0;
+  line-height: 62.8px;
+  position: absolute;
+  top: 41px;
+  white-space: nowrap;
+  width: 600px;
+}
+
+/* Styling for the input div */
+.desktop .div2 {
+  background-color: #ffffff;
+  border: 2px solid #000000; /* Change border color to the desired color */
+  border-radius: 14px; /* Adjust border-radius for a rounded input field */
+  height: 50px; /* Adjust height to your preference */
+  left: 112px;
+  position: absolute;
+  top: 113px;
+  width: 368px;
+}
+
+/* Styling for the input field inside the div */
+.desktop .div2 input.rank-input {
+  border: none; /* Remove input border */
+  width: 100%; /* Make the input take the full width of the div */
+  height: 100%; /* Make the input take the full height of the div */
+  padding: 10px; /* Add padding for better spacing */
+  font-size: 18px; /* Adjust font size to your preference */
+  font-weight: 500; /* Adjust font-weight to your preference */
+  outline: none; /* Remove the default outline on focus */
+  background-color: transparent; /* Make the input background transparent */
+  color: #000000; /* Text color */
+}
+
+/* Styling for the input field placeholder */
+.desktop .div2 input.rank-input::placeholder {
+  color: #505050; /* Adjust placeholder color */
+}
+
+/* Styling for the "email id" text */
+.desktop .email-id {
+  color: #000000;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-size: 24px;
+  font-weight: 600;
+  left: 112px;
+  letter-spacing: 0;
+  line-height: 62.8px;
+  position: absolute;
+  top: 180px;
+  white-space: nowrap;
+  width: 600px;
+}
+
+/* Styling for the email input div */
+.desktop .rectangle-2 {
+  background-color: #ffffff;
+  border: 2px solid #000000; /* Change border color to the desired color */
+  border-radius: 14px; /* Adjust border-radius for a rounded input field */
+  height: 50px; /* Adjust height to your preference */
+  left: 112px;
+  position: absolute;
+  top: 250px;
+  width: 368px;
+  
+}
+
+/* Styling for the email input field inside the div */
+.desktop .rectangle-2 input.email-input {
+  border: none; /* Remove input border */
+  width: 100%; /* Make the input take the full width of the div */
+  height: 100%; /* Make the input take the full height of the div */
+  padding: 10px; /* Add padding for better spacing */
+  font-size: 18px; /* Adjust font size to your preference */
+  font-weight: 500; /* Adjust font-weight to your preference */
+  outline: none; /* Remove the default outline on focus */
+  background-color: transparent; /* Make the input background transparent */
+  color: #000000; /* Text color */
+}
+
+/* Styling for the email input field placeholder */
+.desktop .rectangle-2 input.email-input::placeholder {
+  color: #505050; /* Adjust placeholder color */
+}
+
+/* Styling for the label */
+.desktop .mobile-no {
+  color: #000000;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-size: 24px;
+  font-weight: 600;
+  left: 112px;
+  letter-spacing: 0;
+  line-height: 62.8px;
+  position: absolute;
+  top: 320px;
+  white-space: nowrap;
+  width: 600px;
+}
+
+/* Styling for the mobile input div */
+.desktop .rectangle-3 {
+  background-color: #ffffff;
+  border: 2px solid #000000; /* Change border color to the desired color */
+  border-radius: 14px; /* Adjust border-radius for a rounded input field */
+  height: 50px; /* Adjust height to your preference */
+  left: 112px;
+  position: absolute;
+  top: 387px;
+  width: 368px;
+  display: flex;
+  flex-direction: column; /* Stack label and input vertically */
+  align-items: center; /* Center label and input horizontally */
+  justify-content: center; /* Center label and input vertically */
+}
+
+/* Styling for the mobile input field inside the input div */
+.desktop .rectangle-3 input.mobile-input {
+  border: none; /* Remove input border */
+  width: 100%; /* Make the input take the full width of the div */
+  height: 100%; /* Make the input take the full height of the div */
+  padding: 10px; /* Add padding for better spacing */
+  font-size: 18px; /* Adjust font size to your preference */
+  font-weight: 500; /* Adjust font-weight to your preference */
+  outline: none; /* Remove the default outline on focus */
+  background-color: transparent; /* Make the input background transparent */
+  color: #000000; /* Text color */
+}
+
+/* Styling for the mobile input field placeholder */
+.desktop .rectangle-3 input.mobile-input::placeholder {
+  color: #505050; /* Adjust placeholder color */
+}
+
+/* Styling for the "SUBMIT" button */
+.desktop .text-wrapper-4 {
+  color: #3f3d56;
+  font-family: "Poppins-Bold", Helvetica;
+  font-size: 24px;
+  font-weight: 700;
+  height: 77px;
+  left: 596px;
+  letter-spacing: 0;
+  line-height: 21px;
+  position: relative;
+  top: 617px;
+  width: 132px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #01ED65;
+  cursor: pointer;
+  user-select: none;
+  border: none;
+  border-radius: 4px;
+}
+
+/* Hover effect for the "SUBMIT" button */
+.desktop .text-wrapper-4:hover {
+  background-color: #00d155;
+}
+
+/* Styling for the "UPTAC/AKTU" text */
+.desktop .uptac-aktu {
+  color: #ffffff;
+  font-family: "Poppins-Bold", Helvetica;
+  font-size: 40px;
+  font-weight: 700;
+  height: 72px;
+  left: 627px;
+  letter-spacing: 0;
+  line-height: 71.4px;
+  position: absolute;
+  text-align: right;
+  text-shadow: 0px 4px 4px #00000040;
+  top: 126px;
+  white-space: nowrap;
+}
+
+/* Styling for the "CATEGORY" text */
+.desktop .text-wrapper-20 {
+  color: #000000; /* Text color */
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-size: 24px; /* Font size */
+  font-weight: 600; /* Font weight */
+  left: 900px; /* Adjust left position as needed */
+  letter-spacing: 0;
+  line-height: 62.8px; /* Line height */
+  position: absolute;
+  top: 280px; /* Adjust top position as needed */
+  white-space: nowrap;
+  width: 600px; /* Adjust width as needed */
+}
+
+/* Styling for the selection box */
+.desktop .rectangle-6 {
+  background-color: #ffffff; /* Background color of the input box */
+  border: 2px solid #000000; /* Border color and thickness */
+  border-radius: 14px; /* Border radius for rounded corners */
+  height: 50px; /* Height of the input box */
+  position: absolute;
+  left: 900px;
+  top: 350px; /* Adjust the vertical position as needed */
+  width: 368px; /* Width of the input box */
+  display: flex;
+  flex-direction: column; /* Stack label and input vertically */
+  align-items: center; /* Center label and input horizontally */
+  justify-content: center; /* Center label and input vertically */
+}
+
+/* Styling for the selection box */
+.desktop .rectangle-6 select.rectangle-6-select {
+  border: none; /* Remove input border */
+  width: 100%; /* Make the input take the full width of the div */
+  height: 100%; /* Make the input take the full height of the div */
+  padding: 10px; /* Add padding for better spacing */
+  font-size: 18px; /* Adjust font size to your preference */
+  font-weight: 500; /* Adjust font-weight to your preference */
+  outline: none; /* Remove the default outline on focus */
+  background-color: transparent; /* Make the input background transparent */
+  color: #000000; /* Text color */
+}
+
+/* Styling for the selection box placeholder */
+.desktop .rectangle-6 select.rectangle-6-select option[disabled]:first-child {
+  color: #505050; /* Adjust placeholder color */
+  font-weight: normal; /* Optionally, adjust font weight for placeholder */
+}
+/* Styling for the selection box options */
+.desktop .rectangle-6 select.rectangle-6-select option {
+  padding: 15px; /* Adjust padding to increase the size of the options */
+  font-size: 50px; /* Adjust font size for the options */
+}
+
+
+/* Styling for the "FULL NAME" text */
+.desktop .text-wrapper-9 {
+  color: #000000; /* Text color */
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-size: 24px; /* Font size */
+  font-weight: 600; /* Font weight */
+  left: 900px; /* Adjust left position as needed */
+  letter-spacing: 0;
+  line-height: 62.8px; /* Line height */
+  position: absolute;
+  top: 410px; /* Adjust top position as needed */
+  white-space: nowrap;
+  width: 600px; /* Adjust width as needed */
+}
+
+/* Styling for the input box */
+.desktop .text-wrapper-10 {
+  background-color: #ffffff; /* Background color of the input box */
+  border: 2px solid #000000; /* Border color and thickness */
+  border-radius: 14px; /* Border radius for rounded corners */
+  height: 50px; /* Height of the input box */
+  position: absolute;
+  top: 490px; /* Adjust the vertical position as needed */
+  left: 900px;
+  width: 368px; /* Width of the input box */
+  display: flex;
+  flex-direction: column; /* Stack label and input vertically */
+  align-items: center; /* Center label and input horizontally */
+  justify-content: center; /* Center label and input vertically */
+}
+
+/* Styling for the input field inside the input box */
+.desktop .text-wrapper-10 input.text-wrapper-10-input {
+  border: none; /* Remove input border */
+  width: 100%; /* Make the input take the full width of the div */
+  height: 100%; /* Make the input take the full height of the div */
+  padding: 10px; /* Add padding for better spacing */
+  font-size: 18px; /* Adjust font size to your preference */
+  font-weight: 500; /* Adjust font-weight to your preference */
+  outline: none; /* Remove the default outline on focus */
+  background-color: transparent; /* Make the input background transparent */
+  color: #000000; /* Text color */
+}
+
+/* Styling for the input field placeholder */
+.desktop .text-wrapper-10 input.text-wrapper-10-input::placeholder {
+  color: #505050; /* Adjust placeholder color */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Styling for the "PREFERRED STATE" text */
+.desktop .preferred-state {
+  color: #000000; /* Text color */
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-size: 24px; /* Font size */
+  font-weight: 600; /* Font weight */
+  height: 43px; /* Adjust height as needed */
+  letter-spacing: 0;
+  top: 560px;
+  left: 900px;
+  line-height: 62.8px; /* Line height */
+  position: relative;
+  white-space: nowrap;
+  width: 370px; /* Adjust width as needed */
+}
+
+/* Styling for the selection box */
+.desktop .rectangle-7 {
+  background-color: #ffffff; /* Background color of the input box */
+  border: 2px solid #000000; /* Border color and thickness */
+  border-radius: 14px; /* Border radius for rounded corners */
+  height: 50px; /* Height of the input box */
+  position: absolute; /* Adjust the vertical and horizontal positions as needed */
+  top: 630px;
+  left: 900px;
+  width: 368px; /* Width of the input box */
+  display: flex;
+  flex-direction: column; /* Stack label and input vertically */
+  align-items: center; /* Center label and input horizontally */
+  justify-content: center; /* Center label and input vertically */
+}
+
+/* Styling for the selection box */
+.desktop .rectangle-7 select.rectangle-7-select {
+  border: none; /* Remove input border */
+  width: 100%; /* Make the input take the full width of the div */
+  height: 100%; /* Make the input take the full height of the div */
+  padding: 10px; /* Add padding for better spacing */
+  font-size: 18px; /* Adjust font size to your preference */
+  font-weight: 500; /* Adjust font-weight to your preference */
+  outline: none; /* Remove the default outline on focus */
+  background-color: transparent; /* Make the input background transparent */
+  color: #000000; /* Text color */
+}
+
+/* Styling for the selection box placeholder */
+.desktop .rectangle-7 select.rectangle-7-select option[disabled]:first-child {
+  color: #505050; /* Adjust placeholder color */
+  font-weight: normal; /* Optionally, adjust font weight for placeholder */
+}
+/* Styling for the selection box options */
+.desktop .rectangle-7 select.rectangle-7-select option {
+  padding: 15px; /* Adjust padding to increase the size of the options */
+  font-size: 50px; /* Adjust font size for the options */
+}
