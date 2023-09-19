@@ -21,12 +21,12 @@ export default function Navbar() {
               </Link>
             </li>
             <li>
-              <Link to="/personal-mentor" className="nav-link">
+              <Link to="/personalmentor" className="nav-link">
                 Personal Mentor
               </Link>
             </li>
             <li>
-              <Link to="/college-predictor" className="nav-link">
+              <Link to="/collegepredictor" className="nav-link">
                 College Predictor
               </Link>
             </li>

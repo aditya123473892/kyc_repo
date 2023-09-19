@@ -5,12 +5,12 @@ import Footer from './Components/Footer';
 import Team from './Components/Team';
 import { Mem } from './Screens/members';
 import { Lab } from './Screens/About';
-
 import Updates from './Components/home-components/Updates';
 import Navbar from './Components/Navbar';
 import Mentorship from './Components/Mentorship';
 import Contact from './Screens/Contact';
-
+import { Desktop } from './Screens/aktuform';
+import Collegepredictor from './Screens/Collegepredictor'
 
 function App() {
   return (
@@ -19,37 +19,21 @@ function App() {
         <Navbar />
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route path="/about" component={Lab} /> 
-          <Route path='/contact' component={Contact}></Route>
+          <Route path="/about" component={Lab} />
+          <Route path='/contact' component={Contact} />
+          <Route path='/collegepredictor' component={Collegepredictor} />
         </Switch>
-      
-        
         <Footer />
-       
+        <Home />
+        <Mem />
+        <Lab />
+        <Updates />
+        <Team />
+        <Desktop />
+        <Mentorship />
       </div>
     </Router>
   );
-
-import Updates from './Components/home-components/Updates'
-import { Desktop } from './Screens/aktuform';
-import Navbar from './Components/Navbar'
-import Mentorship from './Components/Mentorship'
-function App() {
-  return (
-    <div>
-       <Navbar></Navbar> 
-      <Home></Home>
-      <Mem></Mem>
-      <Lab></Lab>
-      <Updates></Updates>
-      <Team></Team>
-      <Desktop></Desktop>
-      <Footer></Footer>
-      <Mentorship></Mentorship>
-    </div>
-    
-  )
-
 }
 
 export default App;
