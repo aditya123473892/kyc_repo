@@ -1,40 +1,61 @@
-import React from 'react'
-import '../Components/Nav.css'
-import { useState } from 'react'
+import React, { useState } from 'react';
+import '../Components/Nav.css';
+import { Link } from 'react-router-dom';
 
 export default function Navbar() {
+  const [menuOpen, setMenuOpen] = useState(false);
 
+  const Cross = () => {
+    setMenuOpen(!menuOpen);
+  };
 
-  const[menuOpen,setMenuOpen]=useState(false)
-  const cross=()=>{
-   setMenuOpen(!menuOpen)
-
-  }
   return (
-    <div><div className="nav">
-
-        <div className="logo"> </div>
-        <div className="menu">
-            <ul className={menuOpen ?"open":""}>
-                <li>Home</li>
-                <li>Personal Mentor </li>
-                <li>College Predictor</li>
-                <li>Compare Colleges</li>
-                <li>Ask Doubts</li>
-                <li>About us</li>
-                <button className='button'>College Search</button>
-            </ul>
-            
-            
+    <div>
+      <div className="nav">
+        <div className="logo"></div>
+        <div>
+          <ul className={menuOpen ? "open" : ""}>
+            <li>
+              <Link to="/" className="nav-link">
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link to="/personal-mentor" className="nav-link">
+                Personal Mentor
+              </Link>
+            </li>
+            <li>
+              <Link to="/college-predictor" className="nav-link">
+                College Predictor
+              </Link>
+            </li>
+            <li>
+              <Link to="/compare-colleges" className="nav-link">
+                Compare Colleges
+              </Link>
+            </li>
+            <li>
+              <Link to="/contact" className="nav-link">
+               Contact
+              </Link>
+            </li>
+            <li>
+              <Link to="/about" className="nav-link">
+                About us
+              </Link>
+            </li>
+            <li>
+              <button  className=" button">
+                College Search
+              </button>
+            </li>
+          </ul>
         </div>
-       
-        <div className="menu-icon"  onClick={cross}>
-          <div className="bar" />
-          <div className="bar" />
-          <div className="bar" />
+        <button className="menubutton" onClick={Cross}>
+          menu
+        </button>
       </div>
-        
-        
-        </div></div>
-  )
+    </div>
+  );
 }

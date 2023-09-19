@@ -2,6 +2,8 @@ import React from 'react'
 import css from '../Components/home.css'
 import image from '../Components/image.png'
 import image2 from '../Components/image-2.png'
+import { Lab } from '../Screens/About'
+import Updates from '../Components/home-components/Updates'
 
 export default function Home() {
     return (
@@ -41,6 +43,8 @@ export default function Home() {
   <img src={image2} />
 </div>
   </div></div>
+  <Lab />
+ <Updates />
 
 
     </div>

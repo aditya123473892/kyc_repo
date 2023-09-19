@@ -1,6 +1,6 @@
 import React from 'react'
 import css from '../Components/mentorship.css'
-export default function mentorship() {
+export default function Mentorship() {
   return (
     <div className='mentorship flex_4 col_4'>
         <div className="frame flex_4">
