@@ -11,6 +11,8 @@ import Mentorship from './Components/Mentorship';
 import Contact from './Screens/Contact';
 import { Desktop } from './Screens/aktuform';
 import Collegepredictor from './Screens/Collegepredictor'
+import Abots from './Screens/Abots';
+import Personalmentor from './Screens/Personalmentor';
 
 function App() {
   return (
@@ -19,18 +21,16 @@ function App() {
         <Navbar />
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route path="/about" component={Lab} />
+          <Route path="/about" component={Abots} />
           <Route path='/contact' component={Contact} />
           <Route path='/collegepredictor' component={Collegepredictor} />
+          <Route path='/personalmentor' component={Personalmentor} />
         </Switch>
         <Footer />
-        <Home />
-        <Mem />
-        <Lab />
-        <Updates />
-        <Team />
-        <Desktop />
-        <Mentorship />
+        
+     
+        
+       
       </div>
     </Router>
   );

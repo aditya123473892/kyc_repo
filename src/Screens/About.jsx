@@ -1,5 +1,8 @@
 import React from "react";
 import "./About.css";
+import Team from "../Components/Team";
+import { Mem } from "./members";
+import Footer from "../Components/Footer";
 
 export const Lab = () => {
   return (
@@ -51,7 +54,8 @@ export const Lab = () => {
         <br></br>
       </div>
     </div>
-    </div>
+     </div>
+    
   );
 
 };

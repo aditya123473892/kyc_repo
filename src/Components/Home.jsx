@@ -38,14 +38,14 @@ export default function Home() {
       <h1 className='h_1'><span className='span_1'>cleared directly</span></h1>
       <h1 className='h_1'>from your <span className='span_1'>college</span></h1>
       <h1 className='h_1'><span className='span_1'>seniors</span></h1>
-      <button  className="needCounselling" > <Link to="/contact"></Link></button>
+      <button  className="needCounselling" > <Link to="f/contact"></Link></button>
      
     </div>
   <div className="img_2">
   <img src={image2} />
 </div>
   </div></div>
-  <Lab />
+ 
  <Updates />
 
 

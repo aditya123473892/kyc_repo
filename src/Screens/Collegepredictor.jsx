@@ -1,7 +1,10 @@
 import React from 'react'
+import Desktop from './aktuform'
 
 export default function Collegepredictor() {
   return (
-    <div>Collegepredictor</div>
+    <div>
+      <Desktop></Desktop>
+    </div>
   )
 }
