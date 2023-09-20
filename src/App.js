@@ -12,6 +12,7 @@ import Contact from './Screens/Contact';
 import { Desktop } from './Screens/aktuform';
 import Collegepredictor from './Screens/Collegepredictor'
 import Abots from './Screens/Abots';
+import { Form } from './Screens/form';
 import Personalmentor from './Screens/Personalmentor';
 
 function App() {
@@ -27,7 +28,7 @@ function App() {
           <Route path='/personalmentor' component={Personalmentor} />
         </Switch>
         <Footer />
-        
+        <Form />
      
         
        
