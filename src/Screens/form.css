@@ -1,281 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .box {
-  height: 641px;
-  width: 531px;
+  height: auto;
+  width: 100%;
+  max-width: 100%; /* Limit the width to the viewport width */
 }
 
 .box .rectangle1 {
   background-color: #eae8e8;
   border-radius: 49.09px;
   height: 639px;
-  left: 0;
+  right: 500px;
   top: 0;
+  align-content: center;
   transform: rotate(-0.28deg);
-  width: 528px;
+  width: 525px;
 }
+
 .div25 .link69 {
-    /* Your existing styles */
-    position: relative; /* Position relative to act as a reference for absolute positioning */
-    z-index: 1; /* Ensure the submit button is above the background */
+  position: relative;
+  z-index: 1;
+  top: 0;
+  left: 0;
 }
 
 .div25 .box {
-    /* Your existing styles */
-    position: relative; /* Position relative to act as a reference for absolute positioning */
+  position: relative;
 }
 
-.div25 .link69 .text-wrapper92 {
-    /* Your existing styles */
-}
-
-/* Adjust the positioning of the submit button */
-.div25 .link69 {
-    top: 0; /* Adjust the top position as needed */
-    left: 0; /* Adjust the left position as needed */
-}
 
 /* Style the background */
 .div25 .box .rectangle1 {
-    /* Your existing styles for the background */
-    position: absolute; /* Absolute positioning for the background */
-    top: 0;
-    left: 0;
-    z-index: 0; /* Ensure the background is behind the submit button */
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
 }
+
 /* Styling for the name input div */
-.div25 .name-input {
-    background-color: #ffffff;
-    border: 2px solid #000000; /* Change border color to the desired color */
-    border-radius: 14px; /* Adjust border-radius for a rounded input field */
-    height: 50px; /* Adjust height to your preference */
-    width: 368px; /* Adjust the width of the input box */
-    position: absolute;
-    top: 100px;
-    left: 112px;
-  }
-  
-  /* Styling for the email input div */
-  .div25 .email-input {
-    background-color: #ffffff;
-    border: 2px solid #000000; /* Change border color to the desired color */
-    border-radius: 14px; /* Adjust border-radius for a rounded input field */
-    height: 50px; /* Adjust height to your preference */
-    width: 368px; /* Adjust the width of the input box */
-    position: absolute;
-    top: 200px; /* Adjust the top position for spacing */
-    left: 112px;
-  }
-  
-  /* Styling for the mobile number input div */
-  .div25 .mobile-input {
-    background-color: #ffffff;
-    border: 2px solid #000000; /* Change border color to the desired color */
-    border-radius: 14px; /* Adjust border-radius for a rounded input field */
-    height: 50px; /* Adjust height to your preference */
-    width: 368px; /* Adjust the width of the input box */
-    position: absolute;
-    top: 300px; /* Adjust the top position for spacing */
-    left: 112px;
-  }
-  
-  /* Styling for the rank input div */
-  .div25 .rank-input {
-    background-color: #ffffff;
-    border: 2px solid #000000; /* Change border color to the desired color */
-    border-radius: 14px; /* Adjust border-radius for a rounded input field */
-    height: 50px; /* Adjust height to your preference */
-    width: 368px; /* Adjust the width of the input box */
-    position: absolute;
-    top: 400px; /* Adjust the top position for spacing */
-    left: 112px;
-  }
-  
-  /* Styling for the input fields inside the divs */
-  .div25 input {
-    border: none; /* Remove input border */
-    width: 100%; /* Make the input take the full width of the div */
-    height: 100%; /* Make the input take the full height of the div */
-    padding: 10px; /* Add padding for better spacing */
-    font-size: 18px; /* Adjust font size to your preference */
-    font-weight: 500; /* Adjust font-weight to your preference */
-    outline: none; /* Remove the default outline on focus */
-    background-color: transparent; /* Make the input background transparent */
-    color: #000000; /* Text color */
-  }
-  
-  /* Styling for the input field placeholders */
-  .div25 input::placeholder {
-    color: #505050; /* Adjust placeholder color */
-  }
-  
-
-  .line {
-    height: 57px;
-    width: 451px;
-  }
-  
-  .line .fill-your-details {
-    color: #34423d;
-    font-family: "Karla-Bold", Helvetica;
-    font-size: 19px;
-    font-weight: 700;
-    left: 30px;
-    letter-spacing: 0;
-    line-height: 29.9px;
-    position: relative;
-    text-align: center;
-    top: 50px;
-    transform: rotate(-0.28deg);
-    width: 451px;
-  }
-
-
-
-.div25 
-{
-    background-color: transparent;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-}
-  
-.div25 .class96 
-{
-    background-position: 50% 50%;
-    background-size: cover;
-    height: 1649px;
-    position: relative;
-    width: 1520px;
-}
-  
-.div25 .overlap62 
-{
-    background-size: 100% 100%;
-    height: 661px;
-    left: 157px;
-    position: absolute;
-    top: 939px;
-    width: 550px;
-}
-  
-.div25 .link69
-{
-    align-items: flex-start;
-    background-color: #00ed64;
-    border: 1px solid;
-    border-color: #00684a;
-    border-radius: 4px;
-    display: flex;
-    height: 50px;
-    left: 190px;
-    padding: 16.4px 35.11px 17.2px 32.8px;
-    position: absolute;
-    top: 533px;
-    width: 170px;
-}
-  
-.div25 .text-wrapper92 
-{
-    color: #001e2b;
-    font-family: "Inter-Medium", Helvetica;
-    font-size: 27px;
-    font-weight: 500;
-    letter-spacing: 0;
-    line-height: 16px;
-    margin-right: -5.91px;
-    margin-top: -1px;
-    position: relative;
-    width: 108px;
+.div25 .name-input,
+.div25 .email-input,
+.div25 .mobile-input,
+.div25 .rank-input {
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  border-radius: 14px;
+  height: 50px;
+  width: 90%; /* Adjusted for mobile screens */
+  max-width: 368px; /* Limit width to a reasonable size */
+  position: relative;
+  margin: 0 auto; /* Center horizontally */
+  margin-bottom: 20px; /* Adjust spacing between inputs */
+  font-size: 18px;
+  font-weight: 500;
+  top: 110px;
+  outline: none;
+  background-color: transparent;
+  color: #000000;
 }
 
-  
-.div25 .overlap-group 
-{
-    height: 419px;
-    left: 788px;
-    position: absolute;
-    top: 1042px;
-    width: 658px;
+/* Styling for the input fields inside the divs */
+.div25 input {
+  border: none;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  outline: none;
+  background-color: transparent;
+  color: #000000;
 }
-  
-.div25 .we-ll-reach-you-soon 
-{
-    color: transparent;
-    font-family: "Poppins-ExtraBold", Helvetica;
-    font-size: 71px;
-    font-weight: 800;
-    height: 333px;
-    left: 0;
-    letter-spacing: 0;
-    line-height: 111px;
-    position: absolute;
-    text-align: center;
-    top: 0;
-    width: 658px;
+
+/* Styling for the input field placeholders */
+.div25 input::placeholder {
+  color: #505050;
 }
-  
-.div25 .span 
-{
-    color: #000000;
+
+.line {
+  height: 57px;
+  width: 90%; /* Adjusted for mobile screens */
+  max-width: 451px; /* Limit width to a reasonable size */
+  margin: 0 auto; /* Center horizontally */
 }
-  
-.div25 .text-wrapper-22 
-{
-    color: #00ed64;
+
+.line .fill-your-details {
+  color: #34423d;
+  font-family: "Karla-Bold", Helvetica;
+  font-size: 19px;
+  font-weight: 700;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 29.9px;
+  position: relative;
+  text-align: center;
+  top: 90px; /* Adjusted for mobile screens */
+  transform: none; /* Remove rotation for mobile */
+  width: 100%;
+  max-width: 451px; /* Limit width to a reasonable size */
 }
-  
+
+.div25 {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column; /* Adjusted for mobile screens */
+  align-items: center; /* Center content horizontally */
+  width: 100%;
+}
+
+.div25 .class96 {
+  background-position: 50% 50%;
+  background-size: cover;
+  height: auto;
+  width: 100%;
+  max-width: 1520px; /* Limit the width to the viewport width */
+  bottom: 0;
+}
+
+.div25 .overlap62 {
+  background-size: 100% 100%;
+  height: auto;
+  left: 0;
+  position: relative;
+  top: 0;
+  width: 100%;
+  max-width: 550px; /* Limit the width to the viewport width */
+}
+
+.div25 .link69 {
+  align-items: center; /* Center content vertically */
+  background-color: #00ed64;
+  border: 1px solid;
+  border-color: #00684a;
+  border-radius: 4px;
+  display: flex;
+  height: 50px;
+  left: 160px;
+  padding: 10px; /* Adjusted for mobile screens */
+  position: relative;
+  top: 540px; /* Adjusted for mobile screens */
+  width: 90%; /* Adjusted for mobile screens */
+  max-width: 170px; /* Limit the width to the viewport width */
+  text-align: center; /* Center-align the text */
+}
+
+.div25 .text-wrapper92 {
+  color: #001e2b;
+  font-family: "Inter-Medium", Helvetica;
+  font-size: 27px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-right: 0;
+  top: 3px;
+  left: 30px;
+  margin-top: 0;
+  position: relative;
+  width: auto;
+}
+
+.div25 .overlap-group {
+  height: auto;
+  left: 0;
+  position: relative;
+  top: 0;
+  width: 100%;
+  max-width: 658px; /* Limit the width to the viewport width */
+}
+
+.div25 .we-ll-reach-you-soon {
+  color: transparent;
+  font-family: "Poppins-ExtraBold", Helvetica;
+  font-size: 60px;
+  font-weight: 800;
+  height: auto;
+  left: 660px;
+  letter-spacing: 0;
+  line-height: 36px;
+  position: relative;
+  text-align: center;
+  top: 0px; /* Adjusted for mobile screens */
+  width: 100%;
+  max-width: 658px; /* Limit the width to the viewport width */
+}
+
+.div25 .span {
+  color: #000000;
+}
+
+.div25 .text-wrapper-22 {
+  color: #00ed64;
+}
+
 .div25 .help-and-support {
-    height: 173px;
-    left: 148px;
-    position: absolute;
-    top: 246px;
-    width: 382px;
+  height: auto;
+  left: 0;
+  position: relative;
+  top: 20px; /* Adjusted for mobile screens */
+  width: 100%;
+  max-width: 382px; /* Limit the width to the viewport width */
 }
 
 .div25 .overlap-group-2 {
-    height: 173px;
-    position: relative;
-    width: 380px;
+  height: auto;
+  position: relative;
+  width: 100%;
+  max-width: 380px; /* Limit the width to the viewport width */
 }
 
 .div25 .help-support {
-    color: #000000ad;
-    font-family: "Poppins-ExtraBold", Helvetica;
-    font-size: 28px;
-    font-weight: 800;
-    height: 111px;
-    left: 81px;
-    letter-spacing: 0;
-    line-height: 111px;
-    position: absolute;
-    text-align: center;
-    top: 0;
-    z-index: 2;
-    white-space: nowrap;
+  color: #000000ad;
+  font-family: "Poppins-ExtraBold", Helvetica;
+  font-size: 28px;
+  font-weight: 800;
+  height: auto;
+  left: 810px;
+  letter-spacing: 0;
+  line-height: 36px;
+  position: relative;
+  text-align: center;
+  top: 30px;
+  z-index: 2;
+  white-space: normal;
 }
 
 .div25 .rectangle {
-    border: 1px solid;
-    border-color: #000000;
-    border-radius: 40px;
-    height: 161px;
-    left: 0;
-    position: absolute;
-    top: 12px;
-    width: 380px;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 40px;
+  height: 161px;
+  left: 800px;
+  position: absolute;
+  top: 12px;
+  width: 380px;
 }
+
 .social-icons {
-    display: flex;
-    gap: 10px; /* Adjust the spacing between icons */
-  }
-  
-  .social-icons a {
-    text-decoration: none;
-    color: #007bff; /* Change the color of the icons */
-    font-size: 24px; /* Adjust the size of the icons */
-  }
-  
-  .social-icons a:hover {
-    color: #ff4500; /* Change the color on hover */
-  }
-  
+  display: flex;
+  gap: 10px;
+  justify-content: center; /* Center the icons horizontally */
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 24px;
+}
+
+.social-icons a:hover {
+  color: #ff4500;
+}
