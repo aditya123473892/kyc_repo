@@ -1,9 +1,10 @@
 .centered-names {
   text-align: center;
   background-color: #011F2B;
+  width: 100vw;
   color: #FFFFFF;
-  padding: 5vw; /* Adjust padding */
-  margin-bottom: 5vw; /* Adjust margin */
+  padding: 2vw; /* Adjust padding */
+  margin-bottom: 0vw; /* Adjust margin */
 }
 
 .team-box {
