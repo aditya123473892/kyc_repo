@@ -30,10 +30,11 @@ function App() {
         <Footer />
         <Form />
      
-        
+        <Lab></Lab>
        
       </div>
     </Router>
+   
   );
 }
 

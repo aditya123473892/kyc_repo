@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import '../Components/Nav.css';
 import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons'; // FontAwesome hamburger icon
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -27,7 +29,7 @@ export default function Navbar() {
             </li>
             <li>
               <Link to="/collegepredictor" className="nav-link">
-                College Predictor
+                News
               </Link>
             </li>
             <li>
@@ -47,13 +49,18 @@ export default function Navbar() {
             </li>
             <li>
               <button  className=" button">
-                College Search
+              <Link to="/collegepredictor" className="buttonlnk">
+                College Predictor
+              </Link>
+             
               </button>
             </li>
           </ul>
         </div>
         <button className="menubutton" onClick={Cross}>
-          menu
+        <span className="glyphicon glyphicon-menu-hamburger"></span>
+        <FontAwesomeIcon icon={faBars} style={{ color: 'green' }} /> 
+        
         </button>
       </div>
     </div>

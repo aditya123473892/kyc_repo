@@ -14,6 +14,7 @@
  
 }
 
+
 .nav ul
     {
     
@@ -113,3 +114,68 @@
     width: 100px;
     margin-top: -10px;
 }
+.buttonlnk{
+    text-decoration-style: none;
+    text-decoration: none;
+    color: black;
+}
+.hamburger-button {
+    background-color:black; /* Background color of the button */
+    color: white; /* Text color of the button */
+    padding: 1px 1px; /* Padding inside the button */
+    border: none; /* Remove the button border */
+    cursor: pointer; /* Change the cursor to a pointer on hover */
+    outline: none; /* Remove the button outline on focus */
+    border-radius: 5px; /* Add some border radius for rounded corners */
+}
+.menubutton{
+   
+    height: 20px;
+    width: 40px;
+}
+
+.menubutton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 30px; /* Adjust the width as needed */
+    height: 23px; /* Adjust the height as needed */
+    outline: none;
+  }
+  
+  .line {
+    width: 100%;
+    height: 3px; /* Adjust the height as needed */
+    background-color: black; /* Adjust the color as needed */
+    color: white;
+  }
+  
+  /* Style the lines when the menu is active/open */
+  .menubutton.active .line:nth-child(1) {
+    transform: translateY(5px) rotate(45deg);
+  }
+  
+  .menubutton.active .line:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .menubutton.active .line:nth-child(3) {
+    transform: translateY(-5px) rotate(-45deg);
+  }
+  @media (min-width: 1001px) {
+    .menubutton,
+    .line {
+      display: none; 
+    }
+  }
+  
+  
+  
+  
+  
+  
