@@ -7,7 +7,6 @@
     padding: 15px;
     color: rgb(0, 237, 100);
     cursor: pointer;
-  
 }
 .logo{
  margin-left: 1%;
@@ -33,7 +32,9 @@
     top: .5vh;
     display: none;
 }
-
+.menu-icon{
+    font-size:10px !important;
+}
 .nav-link{
     padding-left: 1rem;
     padding-right: 1rem;
@@ -84,6 +85,8 @@
         right: 3vh;
         top: 2vh;
         display: block;
+        background:none;
+        border:0;
     }
     .nav-link{
         padding-left: 1rem;
@@ -106,8 +109,7 @@
     display: none;
 }
 .logo{
-    
-    background-image: url("C:\Users\ADITYA\Desktop\kyc\kyc\src\KCY__4_-removebg-preview 1.png");
+    /* background-image: url("C:\Users\ADITYA\Desktop\kyc\kyc\src\KCY_4-removebg-preview 1.png"); */
     height: 60px;
     background-size: cover;
     background-repeat: no-repeat;

@@ -1,23 +1,27 @@
 import React from 'react'
 import css from '../Components/mentorship.css'
+import img1 from '../Components/mentorship.jpg'
+import img2 from '../Components/building.jpg'
+import img3 from '../Components/interaction.png'
+import img4 from '../Components/update.png'
 export default function Mentorship() {
   return (
     <div className='mentorship flex_4 col_4'>
         <div className="frame flex_4">
             <div className="video_conference flex_4 col_4">
-                <img src="" alt="" />
+                <img src={img1} />
                 <p>Complete counseling mentorship</p>
             </div>
             <div className="building flex_4 col_4">
-                <img src="" alt="" />
+                <img src={img2} />
                 <p>Get Your College</p>
             </div>
             <div className="support flex_4 col_4">
-                <img src="" alt="" />
+                <img src={img3} />
                 <p>One on One Support</p>
             </div>
             <div className="updates flex_4 col_4">
-                <img src="" alt="" />
+                <img src={img4} />
                 <p>News & Update</p>
             </div>
         </div>

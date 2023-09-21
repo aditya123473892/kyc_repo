@@ -38,7 +38,11 @@ export default function Home() {
       <h1 className='h_1'><span className='span_1'>cleared directly</span></h1>
       <h1 className='h_1'>from your <span className='span_1'>college</span></h1>
       <h1 className='h_1'><span className='span_1'>seniors</span></h1>
+<<<<<<< HEAD
       
+=======
+      <button  className="needCounselling" >NEED COUNSELLING<Link to="f/contact"></Link></button>
+>>>>>>> f8f691f935c305b4058ea0a353d5b9d35b7b6632
      
     </div>
   <div className="img_2">

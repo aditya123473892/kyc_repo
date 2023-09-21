@@ -18,7 +18,7 @@
     padding: 2.5vw 0vw;
 }
 .frame{
-    gap:3vw;
+    gap:4vw;
     width: 70vw;
 }
 .frame p{
@@ -61,4 +61,24 @@
     gap: 3.5vw;
     align-self: flex-start;
     padding-left: 7vw;
+}
+.video_conference img{
+    width: 8vw;
+    height: 8vw;
+    border-radius: 0;
+}
+.building img{
+    width: 8vw;
+    height: 8vw;
+    border-radius: 0;
+}
+.support img{
+    width: 8vw;
+    height: 7.5vw;
+    border-radius: 0;
+}
+.updates img{
+    width: 8vw;
+    height: 8vw;
+    border-radius: 0;
 }
