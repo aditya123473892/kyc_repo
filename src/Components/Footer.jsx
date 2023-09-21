@@ -8,30 +8,30 @@ export default function footer() {
   return (
     <div>
       <footer className="footer">
-  <div className="container flex spaced-between">
-    <div className="image flex">
+  <div className="container_ flex_ spaced-between_">
+    <div className="image_ flex_">
       <img src={image} />
     </div>
-    <div className="middle flex col">
-      <div className="navbar flex">
-        <ul className="flex col left-align">
+    <div className="middle_ flex_ col_">
+      <div className="navbar_ flex_">
+        <ul className="flex_ col_ left-align_">
           <li>ABOUT</li>
           <li>TERMS OF USE</li>
         </ul>
-        <ul className="flex col left-align">
+        <ul className="flex_ col_ left-align_">
           <li>PRIVACY POLICY</li>
           <li>CONTACT US</li>
         </ul>
-        <ul className="flex col left-align">
+        <ul className="flex_ col_ left-align_">
           <li>HELPS</li>
           <li>FAQS</li>
         </ul>
       </div>
-      <div className="line">
+      <div className="line_">
         <hr />
       </div>
     </div>
-    <div className="links flex col left-align">
+    <div className="links_ flex_ col_ left-align_">
       <p>GET OUR</p>
       <p>ASSISTANCES</p>
       {/* <ul className="social-icons flex">
@@ -43,7 +43,7 @@ export default function footer() {
       </ul> */}
     </div>
   </div>
-  <div className="contact-info flex">
+  <div className="contact-info flex_">
     <p>Copyright ©2021-2022 knowyourcolleges.com-All rights reserved</p>
     <p>Privacy Policy</p>
   </div>

@@ -1,14 +1,19 @@
 import React, { useState } from 'react';
 import '../Components/Nav.css';
 import { Link } from 'react-router-dom';
+// import { FaOutdent } from "react-icons/fa6";
+// import 'boxicons'
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const[icon,setIcon] = useState("menu");
 
   const Cross = () => {
     setMenuOpen(!menuOpen);
+    console.log(menuOpen);
+    menuOpen ? setIcon("x"):setIcon("menu");
   };
-
+  
   return (
     <div>
       <div className="nav">
@@ -53,7 +58,8 @@ export default function Navbar() {
           </ul>
         </div>
         <button className="menubutton" onClick={Cross}>
-          menu
+          {/* <FaOutdent /> */}
+        <box-icon className="menu-icon" name={icon} color="white" size="md"></box-icon>
         </button>
       </div>
     </div>

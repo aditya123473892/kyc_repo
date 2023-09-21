@@ -26,9 +26,9 @@ function App() {
           <Route path='/contact' component={Contact} />
           <Route path='/collegepredictor' component={Collegepredictor} />
           <Route path='/personalmentor' component={Personalmentor} />
+          <Route path='/form' component={Form} />
         </Switch>
         <Footer />
-        <Form />
      
         
        
