@@ -220,7 +220,6 @@
   flex-direction: row;
   justify-content: center;
   width: 100%;
-  overflow: hidden; /* Hide overflowing content */
   white-space: nowrap; /* Prevent text from wrapping */
 }
 
@@ -232,7 +231,7 @@
 /* Define the keyframes for the slide animation */
 @keyframes slideRightToLeft {
   0% {
-    transform: translateX(100%); /* Start position: -100% to the left */
+    transform: translateX(0%); /* Start position: -100% to the left */
   }
   100% {
     transform: translateX(-100%); /* End position: 100% to the right */
@@ -512,7 +511,7 @@
     transform: translateX(-100%); /* Start position: -100% to the left */
   }
   100% {
-    transform: translateX(100%); /* End position: 100% to the right */
+    transform: translateX(0%); /* End position: 100% to the right */
   }
 }
 
