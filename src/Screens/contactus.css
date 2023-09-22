@@ -1,0 +1,48 @@
+/* FloatingButton.css */
+.floating-button {
+  position: fixed;
+  bottom: 300px;
+  right: 10px; /* Adjust these values to position the button as desired */
+  z-index: 1000; /* Ensure the button is above other elements on the page */
+  background-color: #00684a; /* Button background color */
+  color: white; /* Button text color */
+  border: none;
+  width: 80px; /* Set the button width */
+  height: 80px; /* Set the button height (same as width) */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  /* Add hover styles or other styles as needed */
+
+  /* Add a background image */
+  background-image: url('message\ logo.png'); /* Replace 'message-logo.png' with your image file path */
+  background-size: 50%; /* Adjust the size of the background image as needed */
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+
+.icon-container {
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.icon {
+  font-size: 24px; /* Adjust the icon size as needed */
+  /* Add your icon styles here */
+}
+
+.text {
+  font-family: "Inter-Regular", Helvetica;
+  position: fixed;
+  bottom: 305px; /* Adjust the desired distance from the bottom */
+  right: 17px; /* Adjust the desired distance from the right */
+}
+
+/* Additional styles for the text */
+.text {
+  font-size: 14px; /* Adjust the font size as needed */
+  color: white; /* Adjust the text color as needed */
+  /* Add any other text styles you want */
+}
