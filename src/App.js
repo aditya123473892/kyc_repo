@@ -12,6 +12,7 @@ import Contact from './Screens/Contact';
 import { Desktop } from './Screens/aktuform';
 import Collegepredictor from './Screens/Collegepredictor'
 import Abots from './Screens/Abots';
+import Flag from './Screens/contactus'
 import { Form } from './Screens/form';
 import Personalmentor from './Screens/Personalmentor';
 
@@ -29,7 +30,7 @@ function App() {
           <Route path='/form' component={Form} />
         </Switch>
         <Footer />
-     
+        <Flag />
         <Lab></Lab>
        
       </div>
