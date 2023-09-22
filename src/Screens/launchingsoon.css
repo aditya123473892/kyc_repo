@@ -1,0 +1,16 @@
+/* ImageDisplay.css */
+.image-container {
+  background-image: url('../Screens/launchingsoon.png');
+  background-size: cover; /* Adjust to your preferred size */
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust the height as needed */
+  background-color: #f0f0f0; /* Optional background color for the container */
+}
+
+.image {
+  max-width: 100%; /* Ensure the image scales down to fit its container */
+  max-height: 100%; /* Ensure the image scales down to fit its container */
+}
