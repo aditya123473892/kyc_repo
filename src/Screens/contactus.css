@@ -1,48 +1,63 @@
-/* FloatingButton.css */
-.floating-button {
-  position: fixed;
-  bottom: 300px;
-  right: 10px; /* Adjust these values to position the button as desired */
-  z-index: 1000; /* Ensure the button is above other elements on the page */
-  background-color: #00684a; /* Button background color */
-  color: white; /* Button text color */
-  border: none;
-  width: 80px; /* Set the button width */
-  height: 80px; /* Set the button height (same as width) */
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.flex_8{
   display: flex;
-  justify-content: center;
   align-items: center;
-  cursor: pointer;
-  /* Add hover styles or other styles as needed */
-
-  /* Add a background image */
-  background-image: url('message\ logo.png'); /* Replace 'message-logo.png' with your image file path */
-  background-size: 50%; /* Adjust the size of the background image as needed */
-  background-repeat: no-repeat;
-  background-position: center center;
+  justify-content: center;
 }
-
-
-.icon-container {
-  display: inline-block;
-  vertical-align: bottom;
+.col_8{
+  flex-direction: column;
 }
-
-.icon {
-  font-size: 24px; /* Adjust the icon size as needed */
-  /* Add your icon styles here */
+.span_8{
+  color: #01ED65;
 }
-
-.text {
-  font-family: "Inter-Regular", Helvetica;
-  position: fixed;
-  bottom: 305px; /* Adjust the desired distance from the bottom */
-  right: 17px; /* Adjust the desired distance from the right */
+.container_8{
+  align-items: center;
+  justify-content: center;
 }
-
-/* Additional styles for the text */
-.text {
-  font-size: 14px; /* Adjust the font size as needed */
-  color: white; /* Adjust the text color as needed */
-  /* Add any other text styles you want */
+.contactme{
+  gap: 10vw;
+}
+.form_8{
+  background-color: #F7FAF9;
+  gap: 1.4vw;
+  width: 20%;
+  padding-bottom: 2vw;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 2vw;
+}
+.form_8 p{
+  font-size: 0.7vw;
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  width: 80%;
+}
+.form_8 input{
+  padding: 0.4vw;
+  padding-right: 2vw;
+  font-size: 1vw;
+  color: #808080;
+  border-radius: 0.5vw;
+  border: 1px solid #BFBEBE;
+  width: 80%;
+}
+.form_8 input[type="submit"]{
+  padding: 0.2vw 0.5vw;
+  width: 30%;
+}
+.content_8 h1{
+  font-weight: 1000;
+  font-size: 3vw;
+}
+input[type="submit"]{
+  background-color: #00EC65;
+  color: black;
+  border-radius: 0.1vw;
+  padding: 0.5vw 1vw;
+  font-weight: 500;
+  border: 1px solid #01694A;
 }

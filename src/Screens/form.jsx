@@ -1,83 +1,89 @@
 import React from "react";
 import "./form.css";
+import { useState } from "react";
 
 export const Form = () => {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    rank: "",
+    mobile: "",
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // You can process the form data here, e.g., send it to an API or perform other actions.
+    console.log(formData);
+  };
+
   return (
-    <div className="div25">
-      <div className="class96">
-        <div className="overlap62">
-          <div className="link69">
-            <div className="text-wrapper92">Submit</div>
-          </div>
-          <div className="box">
-      <div className="rectangle1" />
-      <div className="line">
-      <p className="fill-your-details">Fill Your Details &amp; Get Assisted By Team Kyc</p>
+    <div className="form-container">
+      <h2>Enter Your Information</h2>
+      <form onSubmit={handleSubmit}>
+        <div className="form-group">
+          <label htmlFor="name">Name:</label>
+          <input
+            type="text"
+            className="form-control"
+            id="name"
+            name="name"
+            value={formData.name}
+            onChange={handleChange}
+            placeholder="Enter your name"
+            required
+          />
+        </div>
+        <div className="form-group">
+          <label htmlFor="email">Email:</label>
+          <input
+            type="email"
+            className="form-control"
+            id="email"
+            name="email"
+            value={formData.email}
+            onChange={handleChange}
+            placeholder="Enter your email"
+            required
+          />
+        </div>
+        <div className="form-group">
+          <label htmlFor="rank">Rank:</label>
+          <input
+            type="text"
+            className="form-control"
+            id="rank"
+            name="rank"
+            value={formData.rank}
+            onChange={handleChange}
+            placeholder="Enter your rank"
+            required
+          />
+        </div>
+        <div className="form-group">
+          <label htmlFor="mobile">Mobile Number:</label>
+          <input
+            type="tel"
+            className="form-control"
+            id="mobile"
+            name="mobile"
+            value={formData.mobile}
+            onChange={handleChange}
+            placeholder="Enter your mobile number"
+            required
+          />
+        </div>
+        <button type="submit" className="btnn btn-primary">
+          Submit
+        </button>
+      </form>
     </div>
-      </div>
-      
-      <div className="name-input">
-      
-      
-        <input
-          type="text"
-          placeholder="Your Name"
-          className="name-input-field"
-        />
-      </div>
-
-      <div className="email-input">
-        <input
-          type="email"
-          placeholder="Your Email Address"
-          className="email-input-field"
-        />
-      </div>
-
-      <div className="mobile-input">
-        <input
-          type="tel"
-          placeholder="Your Mobile Number"
-          className="mobile-input-field"
-        />
-      </div>
-
-      <div className="rank-input">
-        <input
-          type="text"
-          placeholder="Your Rank"
-          className="rank-input-field"
-        />
-      </div>
-        </div>
-        <div className="overlap-group">
-          <p className="we-ll-reach-you-soon">
-            <span className="span">We&#39;ll&nbsp;&nbsp;</span>
-            <span className="text-wrapper-22">
-              reach <br />
-            </span>
-            <span className="span">
-              you soon
-              <br />
-            </span>
-          </p>
-          <div className="help-and-support">
-        <div className="overlap-group-2">
-          <div className="help-support">Help &amp; Support</div>
-          <div className="rectangle">
-          <div className="social-icons">
-        <a href="https://www.facebook.com" target="_blank">
-          <i className="fab fa-facebook"></i>
-        </a>
-        <a href="https://twitter.com" target="_blank">
-          <i className="fab fa-twitter"></i>
-        </a>
-      </div>
-</div>
-</div>
-        </div>
-        </div>
-        </div>
-      </div>
   );
 };

@@ -13,6 +13,7 @@ import { Desktop } from './Screens/aktuform';
 import Collegepredictor from './Screens/Collegepredictor'
 import Abots from './Screens/Abots';
 import Flag from './Screens/contactus'
+import Contactme from './Screens/contactus';
 import Launch from './Screens/launchingsoon';
 import { Form } from './Screens/form';
 import Personalmentor from './Screens/Personalmentor';
@@ -29,11 +30,13 @@ function App() {
           <Route path='/collegepredictor' component={Collegepredictor} />
           <Route path='/personalmentor' component={Personalmentor} />
           <Route path='/form' component={Form} />
+          <Route path='/Launchingsoon' component={Launch} />
         </Switch>
         <Footer />
-        <Flag />
-        <Lab></Lab>
-        <Launch />
+       
+       
+      
+   
       </div>
     </Router>
    

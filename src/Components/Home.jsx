@@ -5,6 +5,7 @@ import image2 from '../Components/image-2.png'
 import { Lab } from '../Screens/About'
 import Updates from '../Components/home-components/Updates'
 import {Link} from 'react-router-dom'
+import Contactme from '../Screens/contactus'
 
 export default function Home() {
     return (
@@ -41,7 +42,7 @@ export default function Home() {
 
       
 
-      <button  className="needCounselling" >NEED COUNSELLING<Link to="f/contact"></Link></button>
+
 
      
     </div>
@@ -51,6 +52,7 @@ export default function Home() {
   </div></div>
  
  <Updates />
+ <Contactme></Contactme>
 
 
     </div>

@@ -37,11 +37,11 @@
     justify-content: space-between;
 }
 .middle_{
-    gap:3vw;
+    gap:0.7vw;
     width:60vw;
 }
 .navbar_{
-    padding-top: 6rem;
+    padding-top: 2rem;
     padding-bottom:2vw;
     justify-content:center;
     width:50vw;
@@ -68,8 +68,7 @@
 }
 .line_ hr{
     height:0.5rem;
-    color:white;
-    background-color: white;
+    background-color: #ffffff;
     border-radius:3px;
 }
 .links_{
@@ -82,8 +81,9 @@
     margin-right: 1vw;
 }
 .links_ p{
-    font-size:1.5vw;
-    margin-bottom: 10px;
+    font-size:2vw;
+    margin-bottom: 0px;
+    font-weight: 700;
 }
 .links_ p:nth-child(2){
     color:#00BC4C;

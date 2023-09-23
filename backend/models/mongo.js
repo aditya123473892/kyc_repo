@@ -10,8 +10,8 @@ const newSchema=new mongoose.Schema({
         type:String,
         required:true
     },
-    password:{
-        type:String,
+    mobileno:{
+        type:Number,
         required:true
     }
 })

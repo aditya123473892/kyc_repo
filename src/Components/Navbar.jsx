@@ -36,7 +36,7 @@ export default function Navbar() {
               </Link>
             </li>
             <li>
-              <Link to="/compare-colleges" className="nav-link">
+              <Link to="/Launchingsoon" className="nav-link">
                 Compare Colleges
               </Link>
             </li>
