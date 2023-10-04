@@ -61,3 +61,8 @@ input[type="submit"]{
   font-weight: 500;
   border: 1px solid #01694A;
 }
+.btnn{
+  background-color: #00EC65;
+  padding: 10px;
+  border-radius: 10px;
+}
