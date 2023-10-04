@@ -41,9 +41,9 @@ export default function Navbar() {
               </Link>
             </li>
             <li>
-              <Link to="/contact" className="nav-link">
+              <a  href="https://chat.whatsapp.com/EChVLh6kWxO8RWAJp13VP1" className="nav-link">
                 Contact
-              </Link>
+              </a>
             </li>
             <li>
               <Link to="/about" className="nav-link">

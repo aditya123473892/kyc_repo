@@ -22,7 +22,7 @@ mongoose.connect("mongodb+srv://adityathakur6199:mern123@cluster0.tx7zc2l.mongod
   });
 
 app.post('/register', async (req, res) => {
-  const { email, password } = req.body;
+  const { email, Number} = req.body;
 
   try {
     // Check if a user with the same email already exists
@@ -33,7 +33,7 @@ app.post('/register', async (req, res) => {
       res.status(409).json('User already exists');
     } else {
       // Create a new user if no user with the same email exists
-      const newUser = new Collection({ email, password });
+      const newUser = new Collection({ email, Number });
       await newUser.save();
       // Respond with a success message
       res.json('Registration successful');
@@ -44,25 +44,7 @@ app.post('/register', async (req, res) => {
   }
 });
 
-app.post('/login', async (req, res) => {
-  const { email, password } = req.body;
 
-  try {
-    // Check if a user with the given email and password exists
-    const user = await Collection.findOne({ email, password });
-
-    if (user) {
-      // If a user with the provided credentials is found, respond with a success message or user data
-      res.json('Login successful');
-    } else {
-      // If no matching user is found, respond with an error message
-      res.status(401).json('Invalid credentials');
-    }
-  } catch (error) {
-    console.error('Error:', error);
-    res.status(500).json('Error during login');
-  }
-});
 
 app.listen(port, () => {
   console.log(`Server is listening on port ${port}`);

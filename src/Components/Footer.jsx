@@ -1,8 +1,10 @@
 import React from 'react'
 import css from '../Components/footer.css'
-// import { FontAwesomeIcon  } from '@fortawesome/react-fontawesome';
-// import { faLinkedin, faWhatsapp, faTwitter, faEnvelope} from '@fortawesome/free-solid-svg-icons';
-import image from '../Components/kyc.png'
+ import { FontAwesomeIcon  } from '@fortawesome/react-fontawesome';
+ import image from '../Components/kyc.png'
+
+
+
 
 export default function footer() {
   return (
@@ -32,17 +34,32 @@ export default function footer() {
       </div>
     </div>
     <div className="links_ flex_ col_ left-align_">
-      <p>GET OUR</p>
-      <p>ASSISTANCES</p>
-      {/* <ul className="social-icons flex">
-      <FontAwesomeIcon icon={faCoffee} />
-        <li><a href="#"><FontAwesomeIcon icon={faLinkedin} /></a></li>
-        <li><a href="#"><FontAwesomeIcon icon={faWhatsapp} /></a></li>
-        <li><a href="#"><FontAwesomeIcon icon={faTwitter} /></a></li>
-        <li><a href="#"><FontAwesomeIcon icon={faEnvelope} /></a></li>
-      </ul> */}
-    </div>
-  </div>
+            <p>GET OUR</p>
+            <p>ASSISTANCES</p>
+            <ul className="social-icons flex">
+              <li>
+                <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+                 
+                </a>
+              </li>
+              <li>
+                <a href="https://www.whatsapp.com/" target="_blank" rel="noopener noreferrer">
+                 
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
+                 
+                </a>
+              </li>
+              <li>
+                <a href="mailto:example@example.com">
+                  
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
   <div className="contact-info flex_">
     <p>Copyright ©2021-2022 knowyourcolleges.com-All rights reserved</p>
     <p>Privacy Policy</p>
