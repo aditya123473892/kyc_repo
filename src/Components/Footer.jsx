@@ -1,7 +1,7 @@
 import React from 'react'
 import css from '../Components/footer.css'
- import { FontAwesomeIcon  } from '@fortawesome/react-fontawesome';
  import image from '../Components/kyc.png'
+ import { FaLinkedin, FaEnvelope, FaWhatsapp, FaTwitter } from "react-icons/fa";
 
 
 
@@ -36,28 +36,41 @@ export default function footer() {
     <div className="links_ flex_ col_ left-align_">
             <p>GET OUR</p>
             <p>ASSISTANCES</p>
-            <ul className="social-icons flex">
+            <div className="social-icons flex">
+              <FaLinkedin fontSize={"2rem"}/>
+              <FaWhatsapp fontSize={"2rem"}/>
+              <FaTwitter fontSize={"2rem"}/>
+              <FaEnvelope fontSize={"2rem"}/>
+              {/* <FaWhatsapp color="#011f2b" size="1.5rem" />
+              <FaTwitter color="#011f2b" size="1.5rem" />
+              <FaEnvelope color="#011f2b" size="1.5rem" /> */}
+              
+            </div>
+            {/* <ul className="social-icons flex">
               <li>
                 <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
-                 
+                  <FaLinkedin color="#011f2b" size="1.5rem" />
                 </a>
               </li>
               <li>
                 <a href="https://www.whatsapp.com/" target="_blank" rel="noopener noreferrer">
-                 
+                  <FaLinkedin color="#011f2b" size="1.5rem" />
+
                 </a>
               </li>
               <li>
                 <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
-                 
+                  <FaLinkedin color="#011f2b" size="1.5rem" />
+
                 </a>
               </li>
               <li>
                 <a href="mailto:example@example.com">
-                  
+                  <FaLinkedin color="#011f2b" size="1.5rem" />
+
                 </a>
               </li>
-            </ul>
+            </ul> */}
           </div>
         </div>
   <div className="contact-info flex_">

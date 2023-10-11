@@ -15,8 +15,10 @@
   color: #01ED65;
 }
 .container_8{
-  align-items: center;
+  margin-top: 5vw;
+  align-items: center; 
   justify-content: center;
+  height: 30vw;
 }
 .contactme{
   gap: 10vw;
@@ -24,26 +26,30 @@
 .form_8{
   background-color: #F7FAF9;
   gap: 1.4vw;
-  width: 20%;
+  width: 25%;
   padding-bottom: 2vw;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
   border-radius: 2vw;
 }
 .form_8 p{
-  font-size: 0.7vw;
+  font-size: 0.96vw;
   margin: 0;
   padding: 0;
   font-weight: 700;
   width: 80%;
 }
 .form_8 input{
-  padding: 0.4vw;
+
+  padding: 0.5vw;
   padding-right: 2vw;
   font-size: 1vw;
   color: #808080;
   border-radius: 0.5vw;
   border: 1px solid #BFBEBE;
-  width: 80%;
+  width: 70%;
+}
+.form_8 input:focus{
+  outline:none;
 }
 .form_8 input[type="submit"]{
   padding: 0.2vw 0.5vw;
@@ -61,8 +67,30 @@ input[type="submit"]{
   font-weight: 500;
   border: 1px solid #01694A;
 }
+input[type="Number"]::-webkit-inner-spin-button,
+input[type="Number"]::-webkit-outer-spin-button
+{
+  -webkit-appearance:none;
+}
 .btnn{
   background-color: #00EC65;
   padding: 10px;
   border-radius: 10px;
+}
+.linksOfContact{
+  margin-top: 1vw;
+  border:2px solid black;
+  width:25vw;
+  height:20vh;
+  border-radius:20px;
+  flex-direction: column;
+}
+
+.linksOfContact p{
+  font-size:1.5rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+.n1{
+  gap:1.5rem;
 }

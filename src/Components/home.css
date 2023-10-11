@@ -4,13 +4,13 @@
     box-sizing: border-box;
 }
 .container_1{
-     background:url(c:\Users\ADITYA\Downloads\div.poc-hero-section-bg.png); 
+     /* background:url(c:\Users\ADITYA\Downloads\div.poc-hero-section-bg.png);  */
     background-repeat: no-repeat;
     background-size: cover;
     width:100vw;
     font-family:sans-serif;
     margin-bottom: 1vw;
-    background-color: black; 
+    /* background-color: black;  */
     margin-top: 0px;
 }
 .flex_1{
@@ -90,11 +90,10 @@ h2{
     margin: 1vw;
 }
 .section_3{
-    background-color: black;
+    background-color: #011f2b;
     align-items: flex-end;
     border-radius: 5vw;
     padding: 2vw;
-    margin-left: 20vw;
 }
 .queries{
     color: white;
