@@ -12,6 +12,7 @@
     margin-bottom: 1vw;
     /* background-color: black;  */
     margin-top: 0px;
+    overflow-x: hidden  ;
 }
 .flex_1{
     display:flex;

@@ -79,13 +79,13 @@ export default function Contactme() {
           <input type="text" placeholder="Name" />
           <input
             type="email"
-            placeholder="Email"
+            placeholder="Email Address"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
           />
           <input
             type="number"
-            placeholder="mobileno."
+            placeholder="Mobile Number"
             value={mobileno}
             onChange={(e) => setMobileno(e.target.value)}
           />
@@ -100,10 +100,10 @@ export default function Contactme() {
           <div className="linksOfContact flex_8">
             <p>Help & Support</p>
             <div className="n1 flex_8">
-              <FaLinkedin color="#011f2b" size="1.5rem" />
-              <FaWhatsapp color="#011f2b" size="1.5rem" />
-              <FaTwitter color="#011f2b" size="1.5rem" />
-              <FaEnvelope color="#011f2b" size="1.5rem" />
+              <FaLinkedin color="#011f2b" size="2vw" />
+              <FaWhatsapp color="#011f2b" size="2vw" />
+              <FaTwitter color="#011f2b" size="2vw" />
+              <FaEnvelope color="#011f2b" size="2vw" />
             </div>
           </div>
         </div>

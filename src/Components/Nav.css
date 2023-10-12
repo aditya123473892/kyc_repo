@@ -4,7 +4,7 @@
     align-items: center;
     width: 100%;
     position: sticky;
-    padding: 15px;
+    /* padding: 15px; */
     color: rgb(0, 237, 100);
     cursor: pointer;
 }
@@ -41,15 +41,12 @@
     border-radius: 12px;
     padding-top: 20px;
     text-decoration: none;
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
     color: white;
     font-size: larger;
 }
 .nav-link:hover{
-    background-color:rgb(0, 237, 100) ;
-    color: black;
- 
-    
+    color:rgb(0, 237, 100);  
     
 }
 .button{
@@ -104,7 +101,6 @@
       
     }
 }
-
 .nav ul.open{
     display: none;
 }
@@ -131,8 +127,7 @@
     border-radius: 5px; /* Add some border radius for rounded corners */
 }
 .menubutton{
-   
-    height: 20px;
+    height: 25px;
     width: 40px;
 }
 

@@ -5,7 +5,7 @@ export const Mem = () => {
   return (
     <div className="centered-names">
       <div className="team-box">
-        <div className="heading" align="center"><br></br>Graphics And Designing Team</div>
+        <div className="heading">Graphics And Designing Team</div>
         <div className="label">
           <p className="graphnames">
             Ananya Srivastava
@@ -27,7 +27,7 @@ export const Mem = () => {
           <p className="devnames">
             Aditya Thakur
             <br />
-            Yashika Mehndiratt
+            Yashika Mehndiratta
             <br />
             Anuj Mishra
           </p>

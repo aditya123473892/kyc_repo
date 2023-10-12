@@ -15,10 +15,10 @@
   color: #01ED65;
 }
 .container_8{
-  margin-top: 5vw;
+  margin-top: 8vw;
   align-items: center; 
   justify-content: center;
-  height: 30vw;
+  height: 37vw;
 }
 .contactme{
   gap: 10vw;
@@ -31,6 +31,10 @@
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
   border-radius: 2vw;
 }
+.form_8 svg{
+  width: 3vw;
+  height: 4vw;
+}
 .form_8 p{
   font-size: 0.96vw;
   margin: 0;
@@ -39,9 +43,8 @@
   width: 80%;
 }
 .form_8 input{
-
-  padding: 0.5vw;
-  padding-right: 2vw;
+  padding: 0.6vw;
+  padding-right: 2.5vw;
   font-size: 1vw;
   color: #808080;
   border-radius: 0.5vw;
@@ -57,7 +60,7 @@
 }
 .content_8 h1{
   font-weight: 1000;
-  font-size: 3vw;
+  font-size: 3.5vw;
 }
 input[type="submit"]{
   background-color: #00EC65;
@@ -81,16 +84,33 @@ input[type="Number"]::-webkit-outer-spin-button
   margin-top: 1vw;
   border:2px solid black;
   width:25vw;
-  height:20vh;
-  border-radius:20px;
+  height:12vw;
+  border-radius:1vw;
   flex-direction: column;
 }
 
 .linksOfContact p{
-  font-size:1.5rem;
+  font-size:2vw;
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
+  margin-bottom: 2vw;
 }
 .n1{
-  gap:1.5rem;
+  gap: 1vw;
+}
+@media(max-width:425px){
+  .form_8{
+    width: 37%;
+  }
+  .container_8{
+    height: 49vw;
+  }
+}
+@media(max-width:375px){
+  .form_8{
+    width: 40%;
+  }
+  .form_8 input{
+    width: 90%;
+  }
 }

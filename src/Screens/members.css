@@ -1,54 +1,58 @@
 .centered-names {
-  text-align: center;
-  background-color: #011F2B;
+  background-color: #031922;
   width: 100vw;
   color: #FFFFFF;
-  padding: 2vw; /* Adjust padding */
-  margin-bottom: 0vw; /* Adjust margin */
+  padding: 2vw; 
+  margin-bottom: 0vw; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
-
 .team-box {
-  background-color: #001F2B;
-  border: 0.5vw solid #ffffff; /* Adjust border size */
-  border-radius: 15vw; /* Adjust border radius */
-  padding: 3vw; /* Adjust padding */
-  margin-bottom: 3vw; /* Adjust margin */
+  background-color: #031922;
+  border: 0.5vw solid #ffffff; 
+  border-radius: 15vw; 
+  padding: 1vw; 
+  margin: 3vw 0vw; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 90vw;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
 .heading {
-  font-size: 4vw; /* Adjust font size */
+  font-size: 4vw; 
   font-weight: bold;
-  margin: 0 auto;
-  margin-bottom: 2vw; /* Adjust margin */
-  color: #01ED65;
-  text-decoration: underline;
+  width: 100vw;
   text-align: center;
+  color: #01ED65;
 }
 
 .label {
-  margin-top: 3vw; /* Adjust margin */
+  margin-top: 3vw; 
 }
 
 .graphnames,
 .devnames,
 .contnames {
-  font-size: 2vw; /* Adjust font size */
+  font-size: 2vw;
   line-height: 1.5;
 }
 
-/* Media query for mobile view */
 @media (max-width: 320px) {
   .centered-names {
-    padding: 3vw; /* Adjust padding */
-    margin-bottom: 3vw; /* Adjust margin */
+    padding: 3vw;
+    margin-bottom: 3vw;
   }
 
   .team-box {
-    border: 0.5vw solid #01ED65; /* Adjust border size */
-    border-radius: 6vw; /* Adjust border radius */
-    padding: 2vw; /* Adjust padding */
-    margin-bottom: 2vw; /* Adjust margin */
+    border: 0.5vw solid #01ED65;
+    border-radius: 6vw; 
+    padding: 2vw; 
+    margin-bottom: 2vw; 
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   }
 
@@ -64,6 +68,10 @@
   .graphnames,
   .devnames,
   .contnames {
-    font-size: 1.5vw; /* Adjust font size */
+    font-size: 1.5vw;
   }
+}
+
+.heading{
+  margin:0px !important;
 }
