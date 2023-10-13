@@ -3,6 +3,7 @@ import '../Components/Nav.css';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
+import image from '../Components/kyc.png'
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -17,48 +18,46 @@ export default function Navbar() {
   return (
     <div>
       <div className="nav">
-        <div className="logo"></div>
-        <div>
-          <ul className={menuOpen ? "open" : ""}>
-            <li>
-              <Link to="/" className="nav-link">
-                Home
+        <Link to="/" className="logo"><img src={image} /></Link>
+        <ul className={menuOpen ? "open" : ""}>
+          <li>
+            <Link to="/" className="nav-link">
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link to="/personalmentor" className="nav-link">
+              Personal Mentor
+            </Link>
+          </li>
+          <li>
+            <Link to="/collegepredictor" className="nav-link">
+              News
+            </Link>
+          </li>
+          <li>
+            <Link to="/Launchingsoon" className="nav-link">
+              Compare Colleges
+            </Link>
+          </li>
+          <li>
+            <a href="https://wa.me/message/37PSY2CRRSIJE1" className="nav-link">
+              Contact Us
+            </a>
+          </li>
+          <li>
+            <Link to="/about" className="nav-link">
+              About Us
+            </Link>
+          </li>
+          <li>
+            <button className="button">
+              <Link to="/collegepredictor" className="buttonlnk">
+                College Predictor
               </Link>
-            </li>
-            <li>
-              <Link to="/personalmentor" className="nav-link">
-                Personal Mentor
-              </Link>
-            </li>
-            <li>
-              <Link to="/collegepredictor" className="nav-link">
-                News
-              </Link>
-            </li>
-            <li>
-              <Link to="/Launchingsoon" className="nav-link">
-                Compare Colleges
-              </Link>
-            </li>
-            <li>
-              <a  href="https://chat.whatsapp.com/EChVLh6kWxO8RWAJp13VP1" className="nav-link">
-                Contact
-              </a>
-            </li>
-            <li>
-              <Link to="/about" className="nav-link">
-                About us
-              </Link>
-            </li>
-            <li>
-              <button className="button">
-                <Link to="/collegepredictor" className="buttonlnk">
-                  College Predictor
-                </Link>
-              </button>
-            </li>
-          </ul>
-        </div>
+            </button>
+          </li>
+        </ul>
         <button className="menubutton" onClick={Cross}>
           <FontAwesomeIcon icon={faBars} style={{ color: 'green' }} />
           <box-icon className="menu-icon" name={icon} color="white" size="md"></box-icon>

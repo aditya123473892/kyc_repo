@@ -4,21 +4,21 @@ import Team from "../Components/Team";
 import { Mem } from "./members";
 import Footer from "../Components/Footer";
 
-export const Lab = () => {
+function About() {
   return (
     <div className="lab">
-      <p className="heading-works" style={{ fontWeight: 'bold' , fontSize: '3vw' }}>TOP B.TECH^(COURSES FILTER) COLLEGES OF INDIA</p>
-      <br></br>
-      <div className="frame">
+    <p className="heading-works" style={{ fontWeight: 'bold', fontSize: '3vw',padding: '0 2rem' }}>TOP B.TECH COLLEGES OF INDIA</p>
+    <br></br>
+    <div className="frame">
       <div className="div">
-        <div className="rectangle"/>
-        <div className="img"  />
-        <div className="rectangle-2"  />
-        <div className="rectangle-3" />
-        <div className="rectangle-4" />
-        <div className="rectangle-5" />
-        <div className="rectangle-6" />
-        <div className="rectangle-7"  />
+        <div className="bg rectangle" />
+        <div className="bg img" />
+        <div className="bg rectangle-2" />
+        <div className="bg rectangle-3" />
+        <div className="bg rectangle-4" />
+        <div className="bg rectangle-5" />
+        <div className="bg rectangle-6" />
+        <div className="bg rectangle-7" />
         <div className="text-wrapper">BITS</div>
         <div className="text-wrapper-2">MIT</div>
         <div className="text-wrapper-3">LNMIIT</div>
@@ -30,18 +30,18 @@ export const Lab = () => {
       </div>
     </div>
 
-    <p className="images" style={{ fontWeight: 'bold' , fontSize: '3vw' }}><br></br>TOP ENGINEERING^(COURSE FILTER) COLLEGES OF UTTAR PRADESH^(STATES FILTER)</p>
+    <p className="images" style={{ fontWeight: 'bold', fontSize: '3vw', padding: '0 2rem'}}><br></br>TOP ENGINEERING COLLEGES OF UTTAR PRADESH</p>
     <br></br>
-    <div className="frame1">
+    <div style={{marginBottom: '3rem'}} className="frame1">
       <div className="div1">
-        <div className="rectangle1" />
-        <div className="img1" />
-        <div className="rectangle-21"  />
-        <div className="rectangle-31" />
-        <div className="rectangle-41" />
-        <div className="rectangle-51" />
-        <div className="rectangle-61" />
-        <div className="rectangle-71" />
+        <div className="bg rectangle1" />
+        <div className="bg img1" />
+        <div className="bg rectangle-21" />
+        <div className="bg rectangle-31" />
+        <div className="bg rectangle-41" />
+        <div className="bg rectangle-51" />
+        <div className="bg rectangle-61" />
+        <div className="bg rectangle-71" />
         <div className="text-wrapper1">HBTU</div>
         <div className="text-wrapper-21">JIIT</div>
         <div className="text-wrapper-31">SNU</div>
@@ -54,11 +54,11 @@ export const Lab = () => {
         <br></br>
       </div>
     </div>
-     </div>
-    
-  );
+  </div>
 
-};
+  )
+}
 
+export default About
 
 

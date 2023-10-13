@@ -33,13 +33,8 @@ function App() {
           <Route path='/Launchingsoon' component={Launch} />
         </Switch>
         <Footer />
-       
-       
-      
-   
       </div>
     </Router>
-   
   );
 }
 

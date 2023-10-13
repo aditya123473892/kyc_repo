@@ -4,6 +4,7 @@
   flex-direction: row;
   justify-content: center;
   width: 100%;
+  transition: .3s ease-in-out infinite;
 }
 
 .frame .div {
@@ -20,6 +21,12 @@
   position: absolute;
   top: 0;
   width: 347px;
+}
+.bg{
+  /* box-shadow: 0px 0px 3rem #00EC65; */
+  border: 5px solid #001e2b;
+  border-radius: 10px;
+
 }
 
 .frame .img {
@@ -252,7 +259,6 @@
   width: 291px; /* Adjust width as needed */
   height: 171px; /* Adjust height as needed */
   margin: 0 10px; /* Add spacing between elements */
-  background-color: #ccc; /* Example background color */
   display: inline-block; /* Ensure elements appear in a row */
   color: #001e2b;
   font-family: "Inter-Bold", Helvetica;
@@ -529,7 +535,6 @@
   width: 291px; /* Adjust width as needed */
   height: 171px; /* Adjust height as needed */
   margin: 0 10px; /* Add spacing between elements */
-  background-color: #ccc; /* Example background color */
   display: inline-block; /* Ensure elements appear in a row */
   color: #001e2b;
   font-family: "Inter-Bold", Helvetica;

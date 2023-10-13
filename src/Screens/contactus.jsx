@@ -2,7 +2,7 @@ import React from "react";
 import css from "./contactus.css";
 import axios from "axios";
 import { useState } from "react";
-import { FaLinkedin, FaEnvelope, FaWhatsapp, FaTwitter } from "react-icons/fa";
+import { FaLinkedin, FaEnvelope, FaWhatsapp, FaInstagram } from "react-icons/fa";
 export default function Contactme() {
   const [email, setEmail] = useState("");
   const [mobileno, setMobileno] = useState("");
@@ -100,10 +100,11 @@ export default function Contactme() {
           <div className="linksOfContact flex_8">
             <p>Help & Support</p>
             <div className="n1 flex_8">
-              <FaLinkedin color="#011f2b" size="1.5rem" />
-              <FaWhatsapp color="#011f2b" size="1.5rem" />
-              <FaTwitter color="#011f2b" size="1.5rem" />
-              <FaEnvelope color="#011f2b" size="1.5rem" />
+              <a target="_blank" href="https://www.linkedin.com/company/know-your-colleges/
+"><FaLinkedin color="#011f2b" size="1.5rem" /></a>
+              <a target="_blank" href="https://wa.me/message/37PSY2CRRSIJE1"><FaWhatsapp color="#011f2b" size="1.5rem" /></a>
+              <a target="_blank" href="https://instagram.com/knowyourcolleges_kyc?igshid=OGQ5ZDc2ODk2ZA=="><FaInstagram color="#011f2b" size="1.5rem" /></a>
+              <a target="_blank" href="info@knowyourcolleges.com"><FaEnvelope color="#011f2b" size="1.5rem" /></a>
             </div>
           </div>
         </div>

@@ -1,41 +1,45 @@
-.nav{
+.nav {
     display: flex;
     background-color: #001e2b;
     align-items: center;
     width: 100%;
     position: sticky;
-    padding: 15px;
+    padding: 25px 0 15px 0;
     color: rgb(0, 237, 100);
     cursor: pointer;
 }
 .logo{
- margin-left: 1%;
- 
+    margin-bottom: 2rem;
+}
+.logo img{
+    width: 6.7rem;
 }
 
 
-.nav ul
-    {
-    
+.nav ul {
+
     display: flex;
     list-style: none;
 }
-.btn{
+
+.btn {
     position: absolute;
     top: 3vh;
     right: 13vh;
 }
 
-.menubutton{
+.menubutton {
     position: absolute;
     right: 3vh;
     top: .5vh;
     display: none;
 }
-.menu-icon{
-    font-size:10px !important;
+
+.menu-icon {
+    font-size: 10px !important;
 }
-.nav-link{
+
+.nav-link {
     padding-left: 1rem;
     padding-right: 1rem;
     border-radius: 12px;
@@ -45,70 +49,73 @@
     color: white;
     font-size: larger;
 }
-.nav-link:hover{
-    background-color:rgb(0, 237, 100) ;
+
+.nav-link:hover {
+    background-color: rgb(0, 237, 100);
     color: black;
- 
-    
-    
+
+
+
 }
-.button{
+
+.button {
     position: absolute;
     right: 10vh;
-    top: 3.5vh;
-    height: 40px;
+    top: 2.3rem;
     background-color: rgb(0, 237, 100);
-    padding: 5px;
-    border: 2px solid  rgb(0, 237, 100);
+    border: 2px solid rgb(0, 237, 100);
     cursor: pointer;
     border-radius: 2px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 15px 25px;
     box-shadow: 1px;
-}
-.button:hover{
     border-radius: 35px;
-    transition: 0.5s;
 }
-@media (max-width: 1171px){
-    .nav{
+
+
+@media (max-width: 1171px) {
+    .nav {
         flex-direction: column;
         align-items: flex-start;
         padding: 15px;
 
     }
-    .nav ul{
+
+    .nav ul {
         flex-direction: column;
     }
-    .menubutton{
+
+    .menubutton {
         position: absolute;
         right: 3vh;
         top: 2vh;
         display: block;
-        background:none;
-        border:0;
+        background: none;
+        border: 0;
     }
-    .nav-link{
+
+    .nav-link {
         padding-left: 1rem;
         padding-right: 1rem;
         padding-bottom: 20px;
         padding-top: 20px;
         font-size: larger;
     }
-    .button{
+
+    .button {
         flex-direction: column;
         position: relative;
         align-items: flex-start;
         margin-left: 100px;
         margin-bottom: 20px;
-      
+
     }
 }
 
-.nav ul.open{
+.nav ul.open {
     display: none;
 }
-.logo{
+
+.logo {
     /* background-image: url("C:\Users\ADITYA\Desktop\kyc\kyc\src\KCY_4-removebg-preview 1.png"); */
     height: 60px;
     background-size: cover;
@@ -116,22 +123,32 @@
     width: 100px;
     margin-top: -10px;
 }
-.buttonlnk{
+
+.buttonlnk {
     text-decoration-style: none;
     text-decoration: none;
     color: black;
 }
+
 .hamburger-button {
-    background-color:black; /* Background color of the button */
-    color: white; /* Text color of the button */
-    padding: 1px 1px; /* Padding inside the button */
-    border: none; /* Remove the button border */
-    cursor: pointer; /* Change the cursor to a pointer on hover */
-    outline: none; /* Remove the button outline on focus */
-    border-radius: 5px; /* Add some border radius for rounded corners */
+    background-color: black;
+    /* Background color of the button */
+    color: white;
+    /* Text color of the button */
+    padding: 1px 1px;
+    /* Padding inside the button */
+    border: none;
+    /* Remove the button border */
+    cursor: pointer;
+    /* Change the cursor to a pointer on hover */
+    outline: none;
+    /* Remove the button outline on focus */
+    border-radius: 5px;
+    /* Add some border radius for rounded corners */
 }
-.menubutton{
-   
+
+.menubutton {
+
     height: 20px;
     width: 40px;
 }
@@ -145,39 +162,39 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 30px; /* Adjust the width as needed */
-    height: 23px; /* Adjust the height as needed */
+    width: 30px;
+    /* Adjust the width as needed */
+    height: 23px;
+    /* Adjust the height as needed */
     outline: none;
-  }
-  
-  .line {
+}
+
+.line {
     width: 100%;
-    height: 3px; /* Adjust the height as needed */
-    background-color: black; /* Adjust the color as needed */
+    height: 3px;
+    /* Adjust the height as needed */
+    background-color: black;
+    /* Adjust the color as needed */
     color: white;
-  }
-  
-  /* Style the lines when the menu is active/open */
-  .menubutton.active .line:nth-child(1) {
+}
+
+/* Style the lines when the menu is active/open */
+.menubutton.active .line:nth-child(1) {
     transform: translateY(5px) rotate(45deg);
-  }
-  
-  .menubutton.active .line:nth-child(2) {
+}
+
+.menubutton.active .line:nth-child(2) {
     opacity: 0;
-  }
-  
-  .menubutton.active .line:nth-child(3) {
+}
+
+.menubutton.active .line:nth-child(3) {
     transform: translateY(-5px) rotate(-45deg);
-  }
-  @media (min-width: 1001px) {
+}
+
+@media (min-width: 1001px) {
+
     .menubutton,
     .line {
-      display: none; 
+        display: none;
     }
-  }
-  
-  
-  
-  
-  
-  
+}

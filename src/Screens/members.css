@@ -1,40 +1,34 @@
 .centered-names {
   text-align: center;
-  background-color: #011F2B;
+  background-color: #031922;
   width: 100vw;
   color: #FFFFFF;
-  padding: 2vw; /* Adjust padding */
-  margin-bottom: 0vw; /* Adjust margin */
+  padding: 5rem 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  height: max-content;
 }
 
 .team-box {
   background-color: #001F2B;
-  border: 0.5vw solid #ffffff; /* Adjust border size */
-  border-radius: 15vw; /* Adjust border radius */
-  padding: 3vw; /* Adjust padding */
-  margin-bottom: 3vw; /* Adjust margin */
+  border: 5px solid #ffffff;
+  border-radius: 2rem;
+  padding: 1rem 5rem;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  width: 30rem;
 }
 
 .heading {
-  font-size: 4vw; /* Adjust font size */
+  font-size: 2rem; /* Adjust font size */
   font-weight: bold;
   margin: 0 auto;
   margin-bottom: 2vw; /* Adjust margin */
   color: #01ED65;
-  text-decoration: underline;
-  text-align: center;
 }
 
-.label {
-  margin-top: 3vw; /* Adjust margin */
-}
-
-.graphnames,
-.devnames,
-.contnames {
-  font-size: 2vw; /* Adjust font size */
-  line-height: 1.5;
+.names{
+  font-size: 1.5rem;
+  /* line-height: 1.5; */
 }
 
 /* Media query for mobile view */
