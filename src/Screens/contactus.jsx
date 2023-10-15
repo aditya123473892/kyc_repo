@@ -89,7 +89,10 @@ export default function Contactme() {
             value={mobileno}
             onChange={(e) => setMobileno(e.target.value)}
           />
-          <input type="number" placeholder="Rank" />
+          <select className="select">
+            <option value="actual value 1">In 12th</option>
+            <option value="actual value 2">Pass Out</option>
+          </select>
           <input type="submit" value="Submit" onClick={submit} />
         </div>
         <div className="content_8 flex_8 col_8">
@@ -97,14 +100,14 @@ export default function Contactme() {
             WE'LL <apn className="span_8">REACH</apn>{" "}
           </h1>
           <h1>YOU SOON</h1>
-          <div className="linksOfContact flex_8">
+          <div className="linksOfContact">
             <p>Help & Support</p>
             <div className="n1 flex_8">
               <a target="_blank" href="https://www.linkedin.com/company/know-your-colleges/
-"><FaLinkedin color="#011f2b" size="1.5rem" /></a>
-              <a target="_blank" href="https://wa.me/message/37PSY2CRRSIJE1"><FaWhatsapp color="#011f2b" size="1.5rem" /></a>
-              <a target="_blank" href="https://instagram.com/knowyourcolleges_kyc?igshid=OGQ5ZDc2ODk2ZA=="><FaInstagram color="#011f2b" size="1.5rem" /></a>
-              <a target="_blank" href="info@knowyourcolleges.com"><FaEnvelope color="#011f2b" size="1.5rem" /></a>
+"><FaLinkedin color="#011f2b" size="2rem" /></a>
+              <a target="_blank" href="https://wa.me/message/37PSY2CRRSIJE1"><FaWhatsapp color="#011f2b" size="2rem" /></a>
+              <a target="_blank" href="https://instagram.com/knowyourcolleges_kyc?igshid=OGQ5ZDc2ODk2ZA=="><FaInstagram color="#011f2b" size="2rem" /></a>
+              <a target="_blank" href="info@knowyourcolleges.com"><FaEnvelope color="#011f2b" size="2rem" /></a>
             </div>
           </div>
         </div>

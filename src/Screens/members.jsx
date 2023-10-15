@@ -4,7 +4,7 @@ import "./members.css";
 export const Mem = () => {
   return (
     <div>
-      <h1 style={{ color: 'white', textAlign: 'center', marginTop: '5rem'}}>Our Teams</h1>
+      <h1 style={{ color: 'white', textAlign: 'center', marginTop: '5rem', width:'100vw'}}>Our Teams</h1>
       <div className="centered-names">
         <div className="team-box">
           <div className="heading">Graphics And Designing Team</div>
@@ -19,6 +19,8 @@ export const Mem = () => {
               Radhika Gupta
               <br />
               Ashad Muneer
+              <br />
+              Anuj Mishra
             </p>
           </div>
         </div>
@@ -31,9 +33,9 @@ export const Mem = () => {
               <br />
               Yashika Mehndiratt
               <br />
-              Anuj Mishra
-              <br />
               Aaryan Mishra
+              <br />
+              Ayush Mishra
             </p>
           </div>
         </div>

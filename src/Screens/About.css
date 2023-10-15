@@ -1,10 +1,12 @@
+
+
 .frame {
   background-color: transparent;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 100%;
-  transition: .3s ease-in-out infinite;
+  width: 100% !important;
+  /* transition: .3s ease-in-out infinite; */
 }
 
 .frame .div {
@@ -227,6 +229,7 @@
   flex-direction: row;
   justify-content: center;
   width: 100%;
+  overflow: hidden; /* Hide overflowing content */
   white-space: nowrap; /* Prevent text from wrapping */
 }
 

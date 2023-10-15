@@ -15,14 +15,14 @@ code {
     monospace;
 }
 
-/* Responsive_satyam_shukla */
 
-@media (max-width:${({ theme }) => theme.media,tab})
+/* Responsive_satyam_shukla */
+/* @media (max-width:${({ theme }) => theme.media,tab})
 {
   .landing-page {
     padding : 0 3.2px;
     height:100%;
   
   }
-}
+} */
 

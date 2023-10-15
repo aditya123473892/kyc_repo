@@ -2,7 +2,7 @@
     display: flex;
     background-color: #001e2b;
     align-items: center;
-    width: 100%;
+    width: 100vw;
     position: sticky;
     padding: 25px 0 15px 0;
     color: rgb(0, 237, 100);

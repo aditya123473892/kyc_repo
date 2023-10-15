@@ -3,61 +3,53 @@
   background-color: #031922;
   width: 100vw;
   color: #FFFFFF;
-  padding: 5rem 2rem;
+  padding: 5rem 1rem;
   display: flex;
-  justify-content: space-evenly;
-  height: max-content;
+  justify-content: center;
+  gap: 2rem;
 }
 
 .team-box {
   background-color: #001F2B;
-  border: 5px solid #ffffff;
+  border: 3px solid #ffffff;
   border-radius: 2rem;
-  padding: 1rem 5rem;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-  width: 30rem;
+  padding: 1rem 2rem;
+  width: 20rem;
 }
 
 .heading {
-  font-size: 2rem; /* Adjust font size */
+  font-size: 2rem;
   font-weight: bold;
   margin: 0 auto;
-  margin-bottom: 2vw; /* Adjust margin */
+  margin-bottom: 2vw;
   color: #01ED65;
 }
 
 .names{
   font-size: 1.5rem;
-  /* line-height: 1.5; */
 }
 
-/* Media query for mobile view */
-@media (max-width: 320px) {
-  .centered-names {
-    padding: 3vw; /* Adjust padding */
-    margin-bottom: 3vw; /* Adjust margin */
-  }
-
-  .team-box {
-    border: 0.5vw solid #01ED65; /* Adjust border size */
-    border-radius: 6vw; /* Adjust border radius */
-    padding: 2vw; /* Adjust padding */
-    margin-bottom: 2vw; /* Adjust margin */
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-  }
-
+@media (max-width:1060px){
   .heading {
-    font-size: 3vw; /* Adjust font size */
-    margin-bottom: 1.5vw; /* Adjust margin */
+    font-size: 1.5rem;
   }
-
-  .label {
-    margin-top: 2vw; /* Adjust margin */
+  
+  .names{
+    font-size: 1rem;
   }
-
-  .graphnames,
-  .devnames,
-  .contnames {
-    font-size: 1.5vw; /* Adjust font size */
+  .team-box {
+    padding: 1rem;
+    width: 15rem;
+  }
+}
+@media (max-width:780px){
+  .centered-names{
+    flex-direction: column;
+    align-items: center;
+    gap: 1.4rem;
+  }
+  .team-box {
+    padding: 1rem;
+    width: 70vw;
   }
 }
