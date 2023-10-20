@@ -5,9 +5,11 @@
 }
 .flex_4{
     display: flex;
+    text-wrap: wrap;
 }
 .col_4{
     flex-direction: column;
+    align-items: center;
 }
 .mentorship{
     gap:3.5vw;
@@ -18,16 +20,19 @@
     padding: 2.5vw 0vw;
 }
 .frame{
-    gap:4vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
     width: 70vw;
 }
 .frame p{
     color:grey;
     font-size: 1.5vw;
+    text-align: center;
 }
 .frame img{
-    width: 3vw;
-    height: 3vw;
+    width: 5rem;
+    height: 5rem;
 }
 .mentorship h1{
     font-weight: 700;
@@ -62,23 +67,28 @@
     align-self: flex-start;
     padding-left: 7vw;
 }
-.video_conference img{
-    width: 8vw;
-    height: 8vw;
-    border-radius: 0;
-}
-.building img{
-    width: 8vw;
-    height: 8vw;
-    border-radius: 0;
-}
-.support img{
-    width: 8vw;
-    height: 7.5vw;
-    border-radius: 0;
-}
-.updates img{
-    width: 8vw;
-    height: 8vw;
-    border-radius: 0;
+
+
+@media (max-width:430px){
+    .mentorship h1{
+        font-size: 7vw;
+    }
+    .mentorship ul li {
+        font-size: 5.5vw;
+    }
+    .frame img{
+        width: 3rem;
+        height: 3rem;
+    }
+    .frame{
+        padding: 0 20px;
+        gap: 5px;
+    }
+    .frame p{
+        font-size: 0.7rem;
+    }
+    .enroll_now button{
+        font-size: 1.2rem;
+        padding: 7px 10px;
+    }
 }

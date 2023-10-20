@@ -49,7 +49,7 @@ export default function Team() {
           <img src={image_6} alt="" />
           <div className="info">
             <h1 className="span_2">Aditya Srivastava</h1>
-            <h1 className="span_2 post">Co-founder & C.M.O</h1>
+            <h1 className="span_2 post">Co-founder & C.T.O</h1>
             <h3>Expressing myself through the codes is my way of living.</h3>
             <p>A B.Tech Grad with an attitude of taking up tough tasks & building my way through it.</p>
             <p><span className="span_2">"The world has gone into metaverse & I know the codes to play with it."</span> </p>

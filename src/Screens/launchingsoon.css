@@ -1,16 +1,26 @@
 /* ImageDisplay.css */
 .image-container {
-  background-image: url('../Screens/launchingsoon.png');
-  background-size: cover; /* Adjust to your preferred size */
-  background-repeat: no-repeat;
+  background: url('../rocket.png') no-repeat center center/cover;
+  height: 120vh;
+  background-color: #f0f0f0;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Adjust the height as needed */
-  background-color: #f0f0f0; /* Optional background color for the container */
 }
 
-.image {
-  max-width: 100%; /* Ensure the image scales down to fit its container */
-  max-height: 100%; /* Ensure the image scales down to fit its container */
+.image-container h1{
+  font-size: 5rem;
+}
+
+.image-container h1 span{
+  color: limegreen;
+}
+
+@media (max-width:430px){
+  .image-container h1{
+    font-size: 2rem;
+  }
+  .image-container{
+    background: linear-gradient(to top, #97f797, transparent, #97f797);
+  }
 }

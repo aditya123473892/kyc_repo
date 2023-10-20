@@ -11,7 +11,7 @@ export default function footer() {
   return (
     <div>
       <footer className="footer">
-        <div className="container_ flex_ spaced-between_">
+        {/* <div className="container_ flex_ spaced-between_">
           <div className="image_ flex_">
             <img src={image} />
           </div>
@@ -43,40 +43,11 @@ export default function footer() {
               <a href="https://wa.me/message/37PSY2CRRSIJE1"><FaWhatsapp fontSize={"2rem"} /></a>
               <a href="https://instagram.com/knowyourcolleges_kyc?igshid=OGQ5ZDc2ODk2ZA=="><FaInstagram fontSize={"2rem"} /></a>
               <a href=""><FaEnvelope fontSize={"2rem"} /></a>
-              
-              {/* <FaWhatsapp color="#011f2b" size="1.5rem" />
-              <FaTwitter color="#011f2b" size="1.5rem" />
-              <FaEnvelope color="#011f2b" size="1.5rem" /> */}
-
             </div>
-            {/* <ul className="social-icons flex">
-              <li>
-                <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
-                  <FaLinkedin color="#011f2b" size="1.5rem" />
-                </a>
-              </li>
-              <li>
-                <a href="https://www.whatsapp.com/" target="_blank" rel="noopener noreferrer">
-                  <FaLinkedin color="#011f2b" size="1.5rem" />
-
-                </a>
-              </li>
-              <li>
-                <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
-                  <FaLinkedin color="#011f2b" size="1.5rem" />
-
-                </a>
-              </li>
-              <li>
-                <a href="mailto:example@example.com">
-                  <FaLinkedin color="#011f2b" size="1.5rem" />
-
-                </a>
-              </li>
-            </ul> */}
           </div>
-        </div>
-        <div className="contact-info flex_">
+        </div> */}
+        <div className="contact-info">
+          {/* <img src={image} alt="" /> */}
           <p>Copyright ©2021-2022 knowyourcolleges.com-All rights reserved</p>
           <p>Privacy Policy</p>
         </div>

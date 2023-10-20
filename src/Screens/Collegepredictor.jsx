@@ -5,10 +5,10 @@ export default function Collegepredictor() {
   return (
     <div className='choice_7 flex_7 col_7'>
       <div className="heading_7">
-        <h1>PREDICT <span className="span_7">YOUR COLLEGE</span> ACCORDING TO YOUR RANK</h1>
+        <h1>PREDICT <span >YOUR COLLEGE</span> ACCORDING TO YOUR RANK</h1>
       </div>
       <div className="section_7 flex_7 col_7">
-      <div className="type flex_7 col_7">
+      <div className="type col_7">
             <h1>SELECT YOUR <span className="span_7">COUNSELLING</span> TYPE</h1>
             <button className="aktu">
             <Link to="/Launchingsoon" className="nav-link">
@@ -16,16 +16,13 @@ export default function Collegepredictor() {
               </Link></button>
               
             <button className="aktu">
-            <button className="aktu">
             <Link to="/Launchingsoon" className="nav-link">
             JOSSA(JEE MAINS)
               </Link></button>
-              </button>
-            <button className="aktu">
             <button className="aktu">
             <Link to="/Launchingsoon" className="nav-link">
             JOSSA(JEE ADVANCE)
-              </Link></button></button>
+              </Link></button>
       </div>
       </div>
     </div>
